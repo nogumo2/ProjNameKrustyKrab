@@ -1,0 +1,3620 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1126 &-6289278652338982773
+PackedAssets:
+  m_File: 5
+  m_ShortPath: CAB-76c83773a884e923dc2fdd387815aaf7
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 112
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!641289076 &-2022538305726418405
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 4
+  m_AudioMixerCount: 0
+--- !u!668709126 &-283453987935413008
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-samplescene.vrcw
+    bundleArchiveFile: 3
+    packagedFileIndices: 000000000100000002000000
+  - bundleName: fiverrKrustyKrabV2
+    bundleArchiveFile: 6
+    packagedFileIndices: 05000000
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637760522874603663
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/NOTASH~1/AppData/Local/Temp/DefaultCompany/fiverrKrustyKrabV2/scene-standalonewindows64-samplescene.vrcw
+    crc: 3254167617
+    totalSize: 51690671
+    totalTimeTicks: 2432850471
+    totalErrors: 0
+    totalWarnings: 24
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Projects/fiverrKrustyKrabV2/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene
+    role: Scene
+    id: 0
+    totalSize: 107208380
+  - path: D:/Projects/fiverrKrustyKrabV2/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 47199388
+  - path: D:/Projects/fiverrKrustyKrabV2/scene-standalonewindows64-samplescene.vrcw/BuildPlayer-SampleScene.resource
+    role: StreamingResourceFile
+    id: 2
+    totalSize: 7104608
+  - path: D:/Projects/fiverrKrustyKrabV2/scene-standalonewindows64-samplescene.vrcw
+    role: AssetBundle
+    id: 3
+    totalSize: 51685546
+  - path: D:/Projects/fiverrKrustyKrabV2/scene-standalonewindows64-samplescene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 4
+    totalSize: 3900
+  - path: D:/Projects/fiverrKrustyKrabV2/fiverrKrustyKrabV2/CAB-76c83773a884e923dc2fdd387815aaf7
+    role: ResourcesFile
+    id: 5
+    totalSize: 4312
+  - path: D:/Projects/fiverrKrustyKrabV2/fiverrKrustyKrabV2
+    role: ManifestAssetBundle
+    id: 6
+    totalSize: 1055
+  - path: D:/Projects/fiverrKrustyKrabV2/fiverrKrustyKrabV2.manifest
+    role: AssetBundleTextManifest
+    id: 7
+    totalSize: 170
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 2432850471
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 4411502
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 61005803
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 1502509149
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 2551565
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 820071327
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/SampleScene.unity
+    durationTicks: 820040152
+    depth: 3
+    messages:
+    - type: 2
+      content: The AnimationClip 'Twerk' used by the Animation component 'FluffyDommy
+        (1)' must be marked as Legacy.
+    - type: 2
+      content: The AnimationClip 'Twerk' used by the Animation component 'FluffyDommy
+        (3)' must be marked as Legacy.
+    - type: 2
+      content: Script attached to 'Hips' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Hips' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Poitrinedroite' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Poitrinedroite' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Poitrinegauche' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Poitrinegauche' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Cuissedroite' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Cuissedroite' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Ventre' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Ventre' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Tail1' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Tail1' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Hips' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Hips' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'FluffyDommy (1)' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'FluffyDommy (3)' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'R_1' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'R_1' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'L_1' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'L_1' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Cuissegauche' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Cuissegauche' in scene 'Assets/Scenes/SampleScene.unity'
+        is missing or no valid script is attached.
+  - stepName: Writing asset files
+    durationTicks: 43010231
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-SampleScene/BuildPlayer-SampleScene.sharedAssets
+    durationTicks: 42892487
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 609871265
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 681901
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -283453987935413008}
+  - {fileID: 6071559468366064409}
+  - {fileID: 7897224172658739929}
+  - {fileID: 2374043169909812858}
+  - {fileID: -2022538305726418405}
+  - {fileID: -6289278652338982773}
+--- !u!382020655 &2374043169909812858
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - OVRPlugin
+  - VRC.Udon.ClientBindings
+  - openvr_api
+  - portmidi
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - nunit.framework
+  - librsync.net
+  - VRC.Udon.Common
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - System.Buffers
+  - VRC.Udon.Wrapper
+  - VRC.Udon.Security
+  - clipper_library
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - libopenvr_api
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRCSDK3-Editor
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.VRCTypeResolverModules
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.UAssembly
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - 0Harmony
+  - VRCSDKBase-Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - lz4x64Plastic
+--- !u!1126 &6071559468366064409
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-SampleScene.sharedAssets
+  m_Overhead: 143683
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 121
+    offset: 144616
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 160
+    offset: 144744
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 896
+    offset: 144904
+    sourceAssetGUID: 0a5aad1a8a01a554f9029807ac45e0b0
+    buildTimeAssetPath: Assets/Plankton/Plankton.FBX
+  - fileID: 4
+    classID: 21
+    packedSize: 896
+    offset: 145800
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 5
+    classID: 21
+    packedSize: 896
+    offset: 146696
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 6
+    classID: 21
+    packedSize: 896
+    offset: 147592
+    sourceAssetGUID: 0a5aad1a8a01a554f9029807ac45e0b0
+    buildTimeAssetPath: Assets/Plankton/Plankton.FBX
+  - fileID: 7
+    classID: 21
+    packedSize: 896
+    offset: 148488
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 8
+    classID: 21
+    packedSize: 896
+    offset: 149384
+    sourceAssetGUID: a2087491c8660324c9ff6acb0df26bd3
+    buildTimeAssetPath: Assets/Krusty Krab Employee Hat/Krusty Krab Employee Hat.FBX
+  - fileID: 9
+    classID: 21
+    packedSize: 896
+    offset: 150280
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 10
+    classID: 21
+    packedSize: 892
+    offset: 151176
+    sourceAssetGUID: d9dbc6a0380272b4889910b76070e4d1
+    buildTimeAssetPath: Assets/Shrek/source/Walking.fbx
+  - fileID: 11
+    classID: 21
+    packedSize: 136
+    offset: 152072
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 12
+    classID: 21
+    packedSize: 924
+    offset: 152208
+    sourceAssetGUID: f5902762c957a88418a5b18dd15e11f2
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (1)
+      1.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 924
+    offset: 153136
+    sourceAssetGUID: 54d5d34a90cc5514a852219a5e5561a7
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (1).mat
+  - fileID: 14
+    classID: 21
+    packedSize: 924
+    offset: 154064
+    sourceAssetGUID: cc9184d36a7a42f49a3f060fd2d66f90
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (10).mat
+  - fileID: 15
+    classID: 21
+    packedSize: 924
+    offset: 154992
+    sourceAssetGUID: b8e8cce5b3fb4c545bfd69e74f7d5fe4
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (2)
+      1.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 924
+    offset: 155920
+    sourceAssetGUID: 58a3b71aec561ce45a3b3a1754612dcd
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (2).mat
+  - fileID: 17
+    classID: 21
+    packedSize: 924
+    offset: 156848
+    sourceAssetGUID: 864a3bd97d6daef4baa9619015b8fd87
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (3)
+      1.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 924
+    offset: 157776
+    sourceAssetGUID: 581ec017236a68a4ab06e5404803cf6c
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (3).mat
+  - fileID: 19
+    classID: 21
+    packedSize: 924
+    offset: 158704
+    sourceAssetGUID: dabc7e9ecaf890f40996b14c41c97b56
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (4)
+      1.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 924
+    offset: 159632
+    sourceAssetGUID: b660ae1b260d5d441977b1ea011d672a
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (4).mat
+  - fileID: 21
+    classID: 21
+    packedSize: 924
+    offset: 160560
+    sourceAssetGUID: bcbb0607b41c0e042b4c8e7fabfda1a7
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (5)
+      2.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 924
+    offset: 161488
+    sourceAssetGUID: ede9a3ef9fc24374c9837d0025186844
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (5).mat
+  - fileID: 23
+    classID: 21
+    packedSize: 924
+    offset: 162416
+    sourceAssetGUID: fe0b987ba393b284c8383b644b46c5d1
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (6)
+      1.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 924
+    offset: 163344
+    sourceAssetGUID: c28079658d05cf446a25f10193dd0eda
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (6).mat
+  - fileID: 25
+    classID: 21
+    packedSize: 924
+    offset: 164272
+    sourceAssetGUID: 92d14e19c98109c4abc54f9680561867
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (7).mat
+  - fileID: 26
+    classID: 21
+    packedSize: 924
+    offset: 165200
+    sourceAssetGUID: 2892d966f04d55f478e71fb559c6f8fd
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (8).mat
+  - fileID: 27
+    classID: 21
+    packedSize: 924
+    offset: 166128
+    sourceAssetGUID: 977041d4262a7e14098085c52f3a180a
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299 (9).mat
+  - fileID: 28
+    classID: 21
+    packedSize: 920
+    offset: 167056
+    sourceAssetGUID: 2929ef74b0bf9a44bb41c706493de670
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930299.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 920
+    offset: 167976
+    sourceAssetGUID: 0fa9cc49668c7ee45aa5519301e57412
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930300.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 924
+    offset: 168896
+    sourceAssetGUID: e6b70a101295ed54481cacef2c609e33
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (1).mat
+  - fileID: 31
+    classID: 21
+    packedSize: 924
+    offset: 169824
+    sourceAssetGUID: c7f680bce78296d4ea965dbc220d4e2a
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (10).mat
+  - fileID: 32
+    classID: 21
+    packedSize: 924
+    offset: 170752
+    sourceAssetGUID: 812c981b433496f4e974d54764212832
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (11).mat
+  - fileID: 33
+    classID: 21
+    packedSize: 924
+    offset: 171680
+    sourceAssetGUID: 7757e50246325f640a1af06f2515f2e0
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (12).mat
+  - fileID: 34
+    classID: 21
+    packedSize: 924
+    offset: 172608
+    sourceAssetGUID: b01a8a9529331824bb93785057397c10
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (13).mat
+  - fileID: 35
+    classID: 21
+    packedSize: 924
+    offset: 173536
+    sourceAssetGUID: f371fd57100490941b7e39d54d291dda
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (14).mat
+  - fileID: 36
+    classID: 21
+    packedSize: 924
+    offset: 174464
+    sourceAssetGUID: 3f450095f2b13b84ab6268e6868ce12e
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (15).mat
+  - fileID: 37
+    classID: 21
+    packedSize: 924
+    offset: 175392
+    sourceAssetGUID: 982401a11eb1acd48ad2a67612a795ed
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (16).mat
+  - fileID: 38
+    classID: 21
+    packedSize: 924
+    offset: 176320
+    sourceAssetGUID: e18361c26a91121469043415a8d188f4
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (2).mat
+  - fileID: 39
+    classID: 21
+    packedSize: 924
+    offset: 177248
+    sourceAssetGUID: 3bed8e60864651b4cb5f1832ceedd17e
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (3).mat
+  - fileID: 40
+    classID: 21
+    packedSize: 924
+    offset: 178176
+    sourceAssetGUID: f6b702d3a10aa0b4eaf4cf8e30013b1c
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (4).mat
+  - fileID: 41
+    classID: 21
+    packedSize: 924
+    offset: 179104
+    sourceAssetGUID: d4bae533f18481c42b66bccb77d7169a
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (5).mat
+  - fileID: 42
+    classID: 21
+    packedSize: 924
+    offset: 180032
+    sourceAssetGUID: a552a45ba80084140989b84350ad443e
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (6).mat
+  - fileID: 43
+    classID: 21
+    packedSize: 924
+    offset: 180960
+    sourceAssetGUID: 67d333d0f6761cc4f9db9773e7d93c8f
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (7).mat
+  - fileID: 44
+    classID: 21
+    packedSize: 924
+    offset: 181888
+    sourceAssetGUID: 4ed55bf7bc90b8648aa09881db7f068d
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (8).mat
+  - fileID: 45
+    classID: 21
+    packedSize: 924
+    offset: 182816
+    sourceAssetGUID: 869768c39af8cda40a287800f4613266
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384 (9).mat
+  - fileID: 46
+    classID: 21
+    packedSize: 920
+    offset: 183744
+    sourceAssetGUID: 1ca7255fe1042ba4581d0a78508e8b84
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930384.mat
+  - fileID: 47
+    classID: 21
+    packedSize: 920
+    offset: 184664
+    sourceAssetGUID: 6bac4f29e2760aa4bb22c63e5158f3bc
+    buildTimeAssetPath: Assets/Cursed Images/Materials/Attachment_1638930405.mat
+  - fileID: 48
+    classID: 21
+    packedSize: 916
+    offset: 185584
+    sourceAssetGUID: 21dd40d35b5bc814eba781161af4f408
+    buildTimeAssetPath: Assets/Materials/14042_750 mL_Wine_Bottle_dfinal.mat
+  - fileID: 49
+    classID: 21
+    packedSize: 956
+    offset: 186504
+    sourceAssetGUID: c4fc99ddcb8a8ab45b3cd14996ae337d
+    buildTimeAssetPath: Assets/Materials/BathroomDoor_Wood_PlanksRough1_2x2_1K_ao
+      (1) 2.mat
+  - fileID: 50
+    classID: 21
+    packedSize: 908
+    offset: 187464
+    sourceAssetGUID: d23bb6319aafd3f458cac8e660c30410
+    buildTimeAssetPath: Assets/Materials/BrightStuff/blueLight.mat
+  - fileID: 51
+    classID: 21
+    packedSize: 908
+    offset: 188376
+    sourceAssetGUID: 107fca9fd27b00c42868490659c39356
+    buildTimeAssetPath: Assets/Materials/BrightStuff/greenLight 1.mat
+  - fileID: 52
+    classID: 21
+    packedSize: 908
+    offset: 189288
+    sourceAssetGUID: 23691f7301bd3c84f9e4ffb98a29625c
+    buildTimeAssetPath: Assets/Materials/BrightStuff/orangeLight.mat
+  - fileID: 53
+    classID: 21
+    packedSize: 904
+    offset: 190200
+    sourceAssetGUID: 93db107262188cf4897086ddf51fc6f2
+    buildTimeAssetPath: Assets/Materials/BrightStuff/redLight.mat
+  - fileID: 54
+    classID: 21
+    packedSize: 912
+    offset: 191104
+    sourceAssetGUID: e3765c5ccd3d1a74e8012888a5fe5fbc
+    buildTimeAssetPath: Assets/Materials/BrightStuff/yellowLight 2.mat
+  - fileID: 55
+    classID: 21
+    packedSize: 916
+    offset: 192016
+    sourceAssetGUID: b3de0df0d7aaa484695de58e17f3b785
+    buildTimeAssetPath: Assets/Materials/CHUMBUCKET SURPRISE.mat
+  - fileID: 56
+    classID: 21
+    packedSize: 924
+    offset: 192936
+    sourceAssetGUID: 557084e2b127a8c4794fe6b0bf70cda3
+    buildTimeAssetPath: Assets/Materials/Concrete_WW2_2x2_1K_normal 1.mat
+  - fileID: 57
+    classID: 21
+    packedSize: 924
+    offset: 193864
+    sourceAssetGUID: 23edd1b5cc4099d459ee08c2654b748f
+    buildTimeAssetPath: Assets/Materials/Concrete_WW2_2x2_1K_normal.mat
+  - fileID: 58
+    classID: 21
+    packedSize: 944
+    offset: 194792
+    sourceAssetGUID: 07903792bfd623141999d6610d4b83a3
+    buildTimeAssetPath: Assets/Materials/Glass.mat
+  - fileID: 59
+    classID: 21
+    packedSize: 908
+    offset: 195736
+    sourceAssetGUID: 680cb591843dfc04da9d9ef79c9616a5
+    buildTimeAssetPath: Assets/Materials/HQ MIRROR.mat
+  - fileID: 60
+    classID: 21
+    packedSize: 896
+    offset: 196648
+    sourceAssetGUID: 3dec53a86e3d25144a805ea7c1d35a5c
+    buildTimeAssetPath: Assets/Materials/HelmetBlack.mat
+  - fileID: 61
+    classID: 21
+    packedSize: 896
+    offset: 197544
+    sourceAssetGUID: 154629b38dd1d924eae61a935437ad09
+    buildTimeAssetPath: Assets/Materials/HelmetRed.mat
+  - fileID: 62
+    classID: 21
+    packedSize: 908
+    offset: 198440
+    sourceAssetGUID: d8464ef218e08294d91f1f9676fd6b46
+    buildTimeAssetPath: Assets/Materials/LQ MIRROR.mat
+  - fileID: 63
+    classID: 21
+    packedSize: 940
+    offset: 199352
+    sourceAssetGUID: 16efeafdcca5e3d4cb93b5fcf400c7dd
+    buildTimeAssetPath: Assets/Materials/Leather_Plain02_02x02_512_normal.mat
+  - fileID: 64
+    classID: 21
+    packedSize: 892
+    offset: 200296
+    sourceAssetGUID: fa108d1acde61cf438f1b8fcf1192f7d
+    buildTimeAssetPath: Assets/Materials/Metal.mat
+  - fileID: 65
+    classID: 21
+    packedSize: 932
+    offset: 201192
+    sourceAssetGUID: 0fab637371120234a8c1b3d64f01ddd0
+    buildTimeAssetPath: Assets/Materials/Metal_AluminumBrushed_1K_albedo 1.mat
+  - fileID: 66
+    classID: 21
+    packedSize: 944
+    offset: 202128
+    sourceAssetGUID: 0a08b7a0178a9ca43bc198291318678e
+    buildTimeAssetPath: Assets/Materials/Metal_AluminumBrushed_1K_albedo 2.mat
+  - fileID: 67
+    classID: 21
+    packedSize: 944
+    offset: 203072
+    sourceAssetGUID: 209df681f5aa9324587b8bdd5beebaa4
+    buildTimeAssetPath: Assets/Materials/Metal_AluminumBrushed_1K_albedo 3.mat
+  - fileID: 68
+    classID: 21
+    packedSize: 944
+    offset: 204016
+    sourceAssetGUID: 56a9612e726f95847af0f84adbd587cc
+    buildTimeAssetPath: Assets/Materials/Metal_AluminumBrushed_1K_albedo 4.mat
+  - fileID: 69
+    classID: 21
+    packedSize: 944
+    offset: 204960
+    sourceAssetGUID: 9760daf75adaa404bbe889ebb30cd6c8
+    buildTimeAssetPath: Assets/Materials/Metal_AluminumBrushed_1K_albedo 5.mat
+  - fileID: 70
+    classID: 21
+    packedSize: 940
+    offset: 205904
+    sourceAssetGUID: 298b3f6f74e45564a965db97f2fdc7d4
+    buildTimeAssetPath: Assets/Materials/Metal_AluminumBrushed_1K_albedo.mat
+  - fileID: 71
+    classID: 21
+    packedSize: 896
+    offset: 206848
+    sourceAssetGUID: 05e60114492cbc743be55a2b0f8be3f5
+    buildTimeAssetPath: Assets/Materials/New Material.mat
+  - fileID: 72
+    classID: 21
+    packedSize: 912
+    offset: 207744
+    sourceAssetGUID: c7ca5d7385d4f6f4fa3d6bdacf600bcf
+    buildTimeAssetPath: Assets/Materials/SQUIDWARD BUTTON.mat
+  - fileID: 73
+    classID: 21
+    packedSize: 920
+    offset: 208656
+    sourceAssetGUID: 83a61c232350270428785fa5cae36b6f
+    buildTimeAssetPath: Assets/Materials/TOGGLE POST PROCESSING.mat
+  - fileID: 74
+    classID: 21
+    packedSize: 908
+    offset: 209576
+    sourceAssetGUID: db0a2de1d6d327b46b820618312cf812
+    buildTimeAssetPath: Assets/Materials/TOGGLE SONG.mat
+  - fileID: 75
+    classID: 21
+    packedSize: 952
+    offset: 210488
+    sourceAssetGUID: 1f916fe6eba61cb48919b757d7d9911e
+    buildTimeAssetPath: Assets/Materials/TexturesCom_Concrete_Base12_2x2_1K_albedo.mat
+  - fileID: 76
+    classID: 21
+    packedSize: 968
+    offset: 211440
+    sourceAssetGUID: e737ac640bd461a419576f4c4a7b9ed1
+    buildTimeAssetPath: Assets/Materials/TexturesCom_Pavement_ConcretePlatesOld_2.4x2.4_512_albedo.mat
+  - fileID: 77
+    classID: 21
+    packedSize: 944
+    offset: 212408
+    sourceAssetGUID: 947a0d06aee59d14ea3b23909cdbda0a
+    buildTimeAssetPath: Assets/Materials/Wood_BarkWillow_0.3x0.6_1K_albedo.mat
+  - fileID: 78
+    classID: 21
+    packedSize: 944
+    offset: 213352
+    sourceAssetGUID: f34265dca0145204a905bd4832b9f073
+    buildTimeAssetPath: Assets/Materials/Wood_PlanksRough1_2x2_1K_ao (1) 1.mat
+  - fileID: 79
+    classID: 21
+    packedSize: 944
+    offset: 214296
+    sourceAssetGUID: ac22fd1872718c945ba62c35eb1fe3e9
+    buildTimeAssetPath: Assets/Materials/Wood_PlanksRough1_2x2_1K_ao (1) 2.mat
+  - fileID: 80
+    classID: 21
+    packedSize: 940
+    offset: 215240
+    sourceAssetGUID: 589fdce9009018d4d9c8fe6ebdb6824c
+    buildTimeAssetPath: Assets/Materials/Wood_PlanksRough1_2x2_1K_ao (1).mat
+  - fileID: 81
+    classID: 21
+    packedSize: 928
+    offset: 216184
+    sourceAssetGUID: ea444f34a3f99924fb6abfd59b4976fe
+    buildTimeAssetPath: Assets/Materials/bathroomWhiteRope.mat
+  - fileID: 82
+    classID: 21
+    packedSize: 900
+    offset: 217112
+    sourceAssetGUID: 66da5b723f4774e4b87b5ed83be4e674
+    buildTimeAssetPath: Assets/Materials/bathroommetal.mat
+  - fileID: 83
+    classID: 21
+    packedSize: 892
+    offset: 218016
+    sourceAssetGUID: 0199d7197f7c2bb4fbe8eef27cf5f753
+    buildTimeAssetPath: Assets/Materials/beanSign.mat
+  - fileID: 84
+    classID: 21
+    packedSize: 892
+    offset: 218912
+    sourceAssetGUID: 0488635392e832e44886b1344f397301
+    buildTimeAssetPath: Assets/Materials/black.mat
+  - fileID: 85
+    classID: 21
+    packedSize: 888
+    offset: 219808
+    sourceAssetGUID: 8d7913217e2120240b43233c0a7bbd43
+    buildTimeAssetPath: Assets/Materials/blue.mat
+  - fileID: 86
+    classID: 21
+    packedSize: 896
+    offset: 220696
+    sourceAssetGUID: 54371472d4fbbaf479a7292239471c1c
+    buildTimeAssetPath: Assets/Materials/cigarOrange.mat
+  - fileID: 87
+    classID: 21
+    packedSize: 896
+    offset: 221592
+    sourceAssetGUID: 9f67cc96f53e06449a1abf93b60947c6
+    buildTimeAssetPath: Assets/Materials/cigarWhite.mat
+  - fileID: 88
+    classID: 21
+    packedSize: 908
+    offset: 222488
+    sourceAssetGUID: 33c631668a287024a813f58b41027473
+    buildTimeAssetPath: Assets/Materials/cursedpanik.mat
+  - fileID: 89
+    classID: 21
+    packedSize: 896
+    offset: 223400
+    sourceAssetGUID: 7e0185e77c30a5b47b362d87c864166f
+    buildTimeAssetPath: Assets/Materials/fish_texture.mat
+  - fileID: 90
+    classID: 21
+    packedSize: 168
+    offset: 224296
+    sourceAssetGUID: 8d73cd473b1dac44fb4ce750bb9fde5a
+    buildTimeAssetPath: Assets/Materials/flag1.mat
+  - fileID: 91
+    classID: 21
+    packedSize: 168
+    offset: 224464
+    sourceAssetGUID: fafed154438bbc44b84642047fd9ec98
+    buildTimeAssetPath: Assets/Materials/flag2.mat
+  - fileID: 92
+    classID: 21
+    packedSize: 168
+    offset: 224632
+    sourceAssetGUID: c66d71524aa813647b3e50e8372abc09
+    buildTimeAssetPath: Assets/Materials/flag3.mat
+  - fileID: 93
+    classID: 21
+    packedSize: 168
+    offset: 224800
+    sourceAssetGUID: 647b31d1ef96d6b41a6646abea4f21db
+    buildTimeAssetPath: Assets/Materials/flag4.mat
+  - fileID: 94
+    classID: 21
+    packedSize: 900
+    offset: 224968
+    sourceAssetGUID: 968c8317eecd0fd4a93a68fa2f544ac1
+    buildTimeAssetPath: Assets/Materials/gold.mat
+  - fileID: 95
+    classID: 21
+    packedSize: 952
+    offset: 225872
+    sourceAssetGUID: 9578fc8c89a176f41a4bf07e98b1b1ad
+    buildTimeAssetPath: Assets/Materials/grafitti1.mat
+  - fileID: 96
+    classID: 21
+    packedSize: 952
+    offset: 226824
+    sourceAssetGUID: 18ea40ee71581e445a856564029af1b4
+    buildTimeAssetPath: Assets/Materials/grafitti2.mat
+  - fileID: 97
+    classID: 21
+    packedSize: 952
+    offset: 227776
+    sourceAssetGUID: ca436940b83a817429223e5d63fd1f67
+    buildTimeAssetPath: Assets/Materials/grafitti3.mat
+  - fileID: 98
+    classID: 21
+    packedSize: 952
+    offset: 228728
+    sourceAssetGUID: 4b45fb64bd79ade4d8bb6a8ccee8047f
+    buildTimeAssetPath: Assets/Materials/grafitti4.mat
+  - fileID: 99
+    classID: 21
+    packedSize: 952
+    offset: 229680
+    sourceAssetGUID: 0a20860c1db35cc4c89ae538b6f11125
+    buildTimeAssetPath: Assets/Materials/grafitti5.mat
+  - fileID: 100
+    classID: 21
+    packedSize: 904
+    offset: 230632
+    sourceAssetGUID: da586a860ace2c346ab25f475ad99fc6
+    buildTimeAssetPath: Assets/Materials/hint1.mat
+  - fileID: 101
+    classID: 21
+    packedSize: 904
+    offset: 231536
+    sourceAssetGUID: 0ed53f28c8595774483be122c6062760
+    buildTimeAssetPath: Assets/Materials/hint2.mat
+  - fileID: 102
+    classID: 21
+    packedSize: 944
+    offset: 232440
+    sourceAssetGUID: d8f20463600baf84eaba95f069745dd8
+    buildTimeAssetPath: Assets/Materials/invi.mat
+  - fileID: 103
+    classID: 21
+    packedSize: 896
+    offset: 233384
+    sourceAssetGUID: 7b29e794dcf00e242b87706178761c8c
+    buildTimeAssetPath: Assets/Materials/lightblue.mat
+  - fileID: 104
+    classID: 21
+    packedSize: 924
+    offset: 234280
+    sourceAssetGUID: 0655f71ba44b90741981d944a7c2c4ab
+    buildTimeAssetPath: Assets/Materials/mainWhiteRope.mat
+  - fileID: 105
+    classID: 21
+    packedSize: 908
+    offset: 235208
+    sourceAssetGUID: 2cab83e95c9dd6c4d92a0952f483a5f9
+    buildTimeAssetPath: Assets/Materials/metalwall 1.mat
+  - fileID: 106
+    classID: 21
+    packedSize: 908
+    offset: 236120
+    sourceAssetGUID: 5739d29a20fb2a54cadf432430db7a89
+    buildTimeAssetPath: Assets/Materials/metalwall 2.mat
+  - fileID: 107
+    classID: 21
+    packedSize: 908
+    offset: 237032
+    sourceAssetGUID: dc6c8b697ec68b04b9aa152daa8076b9
+    buildTimeAssetPath: Assets/Materials/metalwall 3.mat
+  - fileID: 108
+    classID: 21
+    packedSize: 908
+    offset: 237944
+    sourceAssetGUID: a79d70431c3ff8345a934acd78122fc3
+    buildTimeAssetPath: Assets/Materials/metalwall.mat
+  - fileID: 109
+    classID: 21
+    packedSize: 168
+    offset: 238856
+    sourceAssetGUID: 2eb31d38735e8884aa66bcc2e3a4476b
+    buildTimeAssetPath: Assets/Materials/money 1.mat
+  - fileID: 110
+    classID: 21
+    packedSize: 908
+    offset: 239024
+    sourceAssetGUID: 7fc74ed0478730a49b817dab9de4161a
+    buildTimeAssetPath: Assets/Materials/moneyPoster.mat
+  - fileID: 111
+    classID: 21
+    packedSize: 896
+    offset: 239936
+    sourceAssetGUID: 58631c62615a7e544b012496e5da1a74
+    buildTimeAssetPath: Assets/Materials/moneySide.mat
+  - fileID: 112
+    classID: 21
+    packedSize: 908
+    offset: 240832
+    sourceAssetGUID: 47b0c1abc8de31943a193dee94a6f158
+    buildTimeAssetPath: Assets/Materials/officeChest.mat
+  - fileID: 113
+    classID: 21
+    packedSize: 940
+    offset: 241744
+    sourceAssetGUID: 9e1484ca89a7e2f469bb39693c091967
+    buildTimeAssetPath: Assets/Materials/oil.mat
+  - fileID: 114
+    classID: 21
+    packedSize: 896
+    offset: 242688
+    sourceAssetGUID: b2ac67713859edf4cab220326d6ae645
+    buildTimeAssetPath: Assets/Materials/plungerGold.mat
+  - fileID: 115
+    classID: 21
+    packedSize: 892
+    offset: 243584
+    sourceAssetGUID: 1430c3c5054c5894990285d1e2699ef0
+    buildTimeAssetPath: Assets/Materials/purple.mat
+  - fileID: 116
+    classID: 21
+    packedSize: 888
+    offset: 244480
+    sourceAssetGUID: 41ec507603888f949b2af50fdc24e510
+    buildTimeAssetPath: Assets/Materials/red.mat
+  - fileID: 117
+    classID: 21
+    packedSize: 912
+    offset: 245368
+    sourceAssetGUID: a3792d7443ca2b441b985bd090fac81c
+    buildTimeAssetPath: Assets/Materials/rope.mat
+  - fileID: 118
+    classID: 21
+    packedSize: 896
+    offset: 246280
+    sourceAssetGUID: 179085198af3d0144b95010815a419a7
+    buildTimeAssetPath: Assets/Materials/smoothWhite.mat
+  - fileID: 119
+    classID: 21
+    packedSize: 908
+    offset: 247176
+    sourceAssetGUID: f8dc3039def83d744997267379d148cf
+    buildTimeAssetPath: Assets/Materials/stretched 1.mat
+  - fileID: 120
+    classID: 21
+    packedSize: 908
+    offset: 248088
+    sourceAssetGUID: 6efa2e6cac2d0fe41844f3295bf2987c
+    buildTimeAssetPath: Assets/Materials/stretched 2.mat
+  - fileID: 121
+    classID: 21
+    packedSize: 892
+    offset: 249000
+    sourceAssetGUID: 5ae197a74f5e1d3408e662fc52d0bb06
+    buildTimeAssetPath: Assets/Materials/white.mat
+  - fileID: 122
+    classID: 21
+    packedSize: 944
+    offset: 249896
+    sourceAssetGUID: d404518928d9f6842bfa513711e0d3ea
+    buildTimeAssetPath: Assets/Materials/window 1.mat
+  - fileID: 123
+    classID: 21
+    packedSize: 944
+    offset: 250840
+    sourceAssetGUID: 9b2be17729913d2428e400c78cbe6fd5
+    buildTimeAssetPath: Assets/Materials/window.mat
+  - fileID: 124
+    classID: 21
+    packedSize: 888
+    offset: 251784
+    sourceAssetGUID: b3b6a9426687a6143b9e7e8d216ec21c
+    buildTimeAssetPath: Assets/Materials/wine.mat
+  - fileID: 125
+    classID: 21
+    packedSize: 892
+    offset: 252672
+    sourceAssetGUID: bc92cd4fd0a2d424f9ea5da0b8577bbe
+    buildTimeAssetPath: Assets/Materials/yellow.mat
+  - fileID: 126
+    classID: 21
+    packedSize: 896
+    offset: 253568
+    sourceAssetGUID: 8c1a43f243dd0994ebb691a31efeb4fe
+    buildTimeAssetPath: Assets/Materials/yellowMetal.mat
+  - fileID: 127
+    classID: 21
+    packedSize: 900
+    offset: 254464
+    sourceAssetGUID: 89e94309afd49b540a8bee1b2568d548
+    buildTimeAssetPath: Assets/Resources/Foorack/Keypad/Keypad_Materials/Keypad_Backplate.mat
+  - fileID: 128
+    classID: 21
+    packedSize: 900
+    offset: 255368
+    sourceAssetGUID: 18b190ef337689e449788e12e3d81e65
+    buildTimeAssetPath: Assets/Resources/Foorack/Keypad/Keypad_Materials/Keypad_Button.mat
+  - fileID: 129
+    classID: 21
+    packedSize: 900
+    offset: 256272
+    sourceAssetGUID: 0a7014de5aaf9de418299f55ac1edc67
+    buildTimeAssetPath: Assets/Resources/Foorack/Keypad/Keypad_Materials/Keypad_ButtonCLR.mat
+  - fileID: 130
+    classID: 21
+    packedSize: 900
+    offset: 257176
+    sourceAssetGUID: 0f32560c2b80ce64b891935f6f98bf15
+    buildTimeAssetPath: Assets/Resources/Foorack/Keypad/Keypad_Materials/Keypad_ButtonOK.mat
+  - fileID: 131
+    classID: 21
+    packedSize: 904
+    offset: 258080
+    sourceAssetGUID: 391533cda8b6cfc4b8c187e3798fd8ae
+    buildTimeAssetPath: Assets/Resources/Foorack/Keypad/Keypad_Materials/Keypad_StatusDisplay.mat
+  - fileID: 132
+    classID: 21
+    packedSize: 25360
+    offset: 258984
+    sourceAssetGUID: 397e65f78c3c3884fb8edfce0bea258b
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/Materials/Body.mat
+  - fileID: 133
+    classID: 21
+    packedSize: 25372
+    offset: 284344
+    sourceAssetGUID: 132800c9ec017e840ae41eb9f8f6d42c
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/Materials/Face
+      and Eyes.mat
+  - fileID: 134
+    classID: 21
+    packedSize: 23860
+    offset: 309720
+    sourceAssetGUID: 0cf1d6c00f2b03648b45d23217d370e8
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/Materials/Hair
+      and Tail.mat
+  - fileID: 135
+    classID: 21
+    packedSize: 23856
+    offset: 333584
+    sourceAssetGUID: ae3bedc26ee1ef04db344d4d75527fd4
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/Materials/Inside
+      Ears.mat
+  - fileID: 136
+    classID: 21
+    packedSize: 23852
+    offset: 357440
+    sourceAssetGUID: eb8015f36d883e84d9bdd48ebae04acc
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/Materials/Latex.mat
+  - fileID: 137
+    classID: 21
+    packedSize: 896
+    offset: 381296
+    sourceAssetGUID: c05ef88742f4b9f4980fa1e33f9e4f56
+    buildTimeAssetPath: Assets/Shrek/textures 1/Materials/shrekball.mat
+  - fileID: 138
+    classID: 21
+    packedSize: 896
+    offset: 382192
+    sourceAssetGUID: f28a05e988066824ab89d409b7a11746
+    buildTimeAssetPath: Assets/Shrek/textures 1/Materials/shrekhead.mat
+  - fileID: 139
+    classID: 21
+    packedSize: 608
+    offset: 383088
+    sourceAssetGUID: 119ec07f1c7ed204db46bd8465fd5a50
+    buildTimeAssetPath: Assets/SkySerie Freebie/UnderTheSea4k.mat
+  - fileID: 140
+    classID: 21
+    packedSize: 516
+    offset: 383696
+    sourceAssetGUID: 0b52da61bdb864f45a553922c2b7c143
+    buildTimeAssetPath: Assets/Smoke/EmberMat.mat
+  - fileID: 141
+    classID: 21
+    packedSize: 176
+    offset: 384216
+    sourceAssetGUID: 559ddcad81888b544aa3823c3fe294bb
+    buildTimeAssetPath: Assets/Smoke/SmokeMat.mat
+  - fileID: 142
+    classID: 21
+    packedSize: 904
+    offset: 384392
+    sourceAssetGUID: 90ac8e7015d546c44be8acda284f82d4
+    buildTimeAssetPath: Assets/Squidward/Materials/Squidward's Eyes.fw.mat
+  - fileID: 143
+    classID: 21
+    packedSize: 1140
+    offset: 385296
+    sourceAssetGUID: c815f7613a04b724089c206857e57c6a
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Materials/MirrorReflection.mat
+  - fileID: 144
+    classID: 21
+    packedSize: 960
+    offset: 386440
+    sourceAssetGUID: 94a094bf0dfff4b36bb52208e69a0829
+    buildTimeAssetPath: Assets/WoodBarrel/Materials/WoodBarrel_D.mat
+  - fileID: 145
+    classID: 21
+    packedSize: 948
+    offset: 387400
+    sourceAssetGUID: 8e54b2de28655c9439ea3efff1b2003c
+    buildTimeAssetPath: Assets/beer_cup/Materials/beercup_basecolor.mat
+  - fileID: 146
+    classID: 21
+    packedSize: 904
+    offset: 388352
+    sourceAssetGUID: 9f027455890e96440971f40693f4709d
+    buildTimeAssetPath: Assets/chain/Materials/Redpaint_Reflection.mat
+  - fileID: 147
+    classID: 21
+    packedSize: 932
+    offset: 389256
+    sourceAssetGUID: a453a98e15e875f40ad57967f1b81e49
+    buildTimeAssetPath: Assets/johnnys-beer/Materials/bottle_low_lambert1_Diffuse.mat
+  - fileID: 148
+    classID: 21
+    packedSize: 932
+    offset: 390192
+    sourceAssetGUID: f8016e76e3e82b8429cc37be2eba49ea
+    buildTimeAssetPath: Assets/sponge-bob/Materials/SpongeBob_Base_Color.mat
+  - fileID: 149
+    classID: 21
+    packedSize: 800
+    offset: 391128
+    sourceAssetGUID: c22777d6e868e4f2fb421913386b154e
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  - fileID: 150
+    classID: 21
+    packedSize: 896
+    offset: 391928
+    sourceAssetGUID: 7977e423937da9b48aac1866c67bb5be
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Watermelon.fbx
+  - fileID: 151
+    classID: 21
+    packedSize: 896
+    offset: 392824
+    sourceAssetGUID: 47365cc78e5cfad41badc534e3d2b7e1
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Cheese.fbx
+  - fileID: 152
+    classID: 21
+    packedSize: 896
+    offset: 393720
+    sourceAssetGUID: fdc7d8dffa381b54cb7740b8761d54c0
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hotdog.fbx
+  - fileID: 153
+    classID: 21
+    packedSize: 896
+    offset: 394616
+    sourceAssetGUID: 47365cc78e5cfad41badc534e3d2b7e1
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Cheese.fbx
+  - fileID: 154
+    classID: 21
+    packedSize: 896
+    offset: 395512
+    sourceAssetGUID: fdc7d8dffa381b54cb7740b8761d54c0
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hotdog.fbx
+  - fileID: 155
+    classID: 21
+    packedSize: 900
+    offset: 396408
+    sourceAssetGUID: 47365cc78e5cfad41badc534e3d2b7e1
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Cheese.fbx
+  - fileID: 156
+    classID: 21
+    packedSize: 896
+    offset: 397312
+    sourceAssetGUID: 7977e423937da9b48aac1866c67bb5be
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Watermelon.fbx
+  - fileID: 157
+    classID: 21
+    packedSize: 900
+    offset: 398208
+    sourceAssetGUID: fdc7d8dffa381b54cb7740b8761d54c0
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hotdog.fbx
+  - fileID: 158
+    classID: 21
+    packedSize: 896
+    offset: 399112
+    sourceAssetGUID: 54b107e50acd7e24b96d7de887c68833
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  - fileID: 159
+    classID: 21
+    packedSize: 892
+    offset: 400008
+    sourceAssetGUID: 7977e423937da9b48aac1866c67bb5be
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Watermelon.fbx
+  - fileID: 160
+    classID: 21
+    packedSize: 900
+    offset: 400904
+    sourceAssetGUID: 54b107e50acd7e24b96d7de887c68833
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  - fileID: 161
+    classID: 21
+    packedSize: 888
+    offset: 401808
+    sourceAssetGUID: 7977e423937da9b48aac1866c67bb5be
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Watermelon.fbx
+  - fileID: 162
+    classID: 21
+    packedSize: 896
+    offset: 402696
+    sourceAssetGUID: 54b107e50acd7e24b96d7de887c68833
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  - fileID: 163
+    classID: 21
+    packedSize: 892
+    offset: 403592
+    sourceAssetGUID: 7977e423937da9b48aac1866c67bb5be
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Watermelon.fbx
+  - fileID: 164
+    classID: 21
+    packedSize: 896
+    offset: 404488
+    sourceAssetGUID: 54b107e50acd7e24b96d7de887c68833
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  - fileID: 165
+    classID: 21
+    packedSize: 896
+    offset: 405384
+    sourceAssetGUID: 54b107e50acd7e24b96d7de887c68833
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  - fileID: 166
+    classID: 21
+    packedSize: 896
+    offset: 406280
+    sourceAssetGUID: 54b107e50acd7e24b96d7de887c68833
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  - fileID: 167
+    classID: 21
+    packedSize: 896
+    offset: 407176
+    sourceAssetGUID: a2087491c8660324c9ff6acb0df26bd3
+    buildTimeAssetPath: Assets/Krusty Krab Employee Hat/Krusty Krab Employee Hat.FBX
+  - fileID: 168
+    classID: 21
+    packedSize: 896
+    offset: 408072
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 169
+    classID: 21
+    packedSize: 896
+    offset: 408968
+    sourceAssetGUID: 0a5aad1a8a01a554f9029807ac45e0b0
+    buildTimeAssetPath: Assets/Plankton/Plankton.FBX
+  - fileID: 170
+    classID: 21
+    packedSize: 896
+    offset: 409864
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 171
+    classID: 21
+    packedSize: 896
+    offset: 410760
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 172
+    classID: 21
+    packedSize: 896
+    offset: 411656
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 173
+    classID: 21
+    packedSize: 896
+    offset: 412552
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 174
+    classID: 21
+    packedSize: 896
+    offset: 413448
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 175
+    classID: 21
+    packedSize: 892
+    offset: 414344
+    sourceAssetGUID: 87c37b6c661387443872945c14711dca
+    buildTimeAssetPath: Assets/Patrick/source/11_Bryan_Patrick_Rig.fbx
+  - fileID: 176
+    classID: 21
+    packedSize: 896
+    offset: 415240
+    sourceAssetGUID: 0a5aad1a8a01a554f9029807ac45e0b0
+    buildTimeAssetPath: Assets/Plankton/Plankton.FBX
+  - fileID: 177
+    classID: 21
+    packedSize: 896
+    offset: 416136
+    sourceAssetGUID: a2087491c8660324c9ff6acb0df26bd3
+    buildTimeAssetPath: Assets/Krusty Krab Employee Hat/Krusty Krab Employee Hat.FBX
+  - fileID: 178
+    classID: 21
+    packedSize: 896
+    offset: 417032
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 179
+    classID: 21
+    packedSize: 896
+    offset: 417928
+    sourceAssetGUID: 0a5aad1a8a01a554f9029807ac45e0b0
+    buildTimeAssetPath: Assets/Plankton/Plankton.FBX
+  - fileID: 180
+    classID: 21
+    packedSize: 896
+    offset: 418824
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 181
+    classID: 21
+    packedSize: 896
+    offset: 419720
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 182
+    classID: 21
+    packedSize: 896
+    offset: 420616
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 183
+    classID: 21
+    packedSize: 908
+    offset: 421512
+    sourceAssetGUID: d9dbc6a0380272b4889910b76070e4d1
+    buildTimeAssetPath: Assets/Shrek/source/Walking.fbx
+  - fileID: 184
+    classID: 21
+    packedSize: 896
+    offset: 422424
+    sourceAssetGUID: 0a5aad1a8a01a554f9029807ac45e0b0
+    buildTimeAssetPath: Assets/Plankton/Plankton.FBX
+  - fileID: 185
+    classID: 21
+    packedSize: 896
+    offset: 423320
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 186
+    classID: 21
+    packedSize: 896
+    offset: 424216
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 187
+    classID: 28
+    packedSize: 109560
+    offset: 425112
+    sourceAssetGUID: 020aa245748c36d46ad559d279bfa5d6
+    buildTimeAssetPath: Assets/Textures/Leather_Plain02_02x02_512_normal.tif
+  - fileID: 188
+    classID: 28
+    packedSize: 4204
+    offset: 534672
+    sourceAssetGUID: 02c0a84bd64c6f044954d8bde9b46ec8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png
+  - fileID: 189
+    classID: 28
+    packedSize: 129536
+    offset: 538880
+    sourceAssetGUID: 03194a89e4ff20347a756cc69057f0eb
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (8).jpeg
+  - fileID: 190
+    classID: 28
+    packedSize: 42828
+    offset: 668416
+    sourceAssetGUID: 05e2179075d248e459de6fd673f6dce4
+    buildTimeAssetPath: Assets/Textures/Wood_PlanksRough1_2x2_1K_ao (1).tif
+  - fileID: 191
+    classID: 28
+    packedSize: 66168
+    offset: 711248
+    sourceAssetGUID: 0966379cdc7741249b9a812fa222ce58
+    buildTimeAssetPath: Assets/TOGGLE POST PROCESSING.psd
+  - fileID: 192
+    classID: 28
+    packedSize: 4204
+    offset: 777416
+    sourceAssetGUID: 09f6c01f98a3ded4daf1afc52a3c260f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_26.png
+  - fileID: 193
+    classID: 28
+    packedSize: 4204
+    offset: 781624
+    sourceAssetGUID: 0a79c155edf9b2d429d4736abee5acdb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_35.png
+  - fileID: 194
+    classID: 28
+    packedSize: 13960
+    offset: 785832
+    sourceAssetGUID: 0d1bf1cf1d8022f48b8dc02b21ce986d
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Eyes2.fw.png
+  - fileID: 195
+    classID: 28
+    packedSize: 33072
+    offset: 799792
+    sourceAssetGUID: 0e1ad789691605a45b5a4fc2f4f5fd30
+    buildTimeAssetPath: Assets/Textures/grafitti4.psd
+  - fileID: 196
+    classID: 28
+    packedSize: 53468
+    offset: 832864
+    sourceAssetGUID: 0e57e5f5f5d22ec4d863909d2f1cc739
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (14).jpeg
+  - fileID: 197
+    classID: 28
+    packedSize: 1398248
+    offset: 886336
+    sourceAssetGUID: 0ee807bd0fbf06f48abffe22d6fc2384
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  - fileID: 198
+    classID: 28
+    packedSize: 65644
+    offset: 2284584
+    sourceAssetGUID: 0f8fa14b3731cda4e947062e734d5e1e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_1.png
+  - fileID: 199
+    classID: 28
+    packedSize: 4204
+    offset: 2350232
+    sourceAssetGUID: 0fa10b21877c61b4db40ba5708815f81
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_30.png
+  - fileID: 200
+    classID: 28
+    packedSize: 22112
+    offset: 2354440
+    sourceAssetGUID: 104cce967f993ac469dd000044b8827c
+    buildTimeAssetPath: Assets/beer_cup/textures/beercup_metallic.jpg
+  - fileID: 201
+    classID: 28
+    packedSize: 2004
+    offset: 2376552
+    sourceAssetGUID: 10ea8cb5fb46fef4c9f8774bf63eeb1c
+    buildTimeAssetPath: Assets/Plankton/Plankton_Tex.fw.png
+  - fileID: 202
+    classID: 28
+    packedSize: 4204
+    offset: 2378560
+    sourceAssetGUID: 119591e0bb084e848835d237546b3882
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_61.png
+  - fileID: 203
+    classID: 28
+    packedSize: 21988
+    offset: 2382768
+    sourceAssetGUID: 13175baee6dee404c8695516f1affb4a
+    buildTimeAssetPath: Assets/Textures/HQ MIRROR.psd
+  - fileID: 204
+    classID: 28
+    packedSize: 11896
+    offset: 2404760
+    sourceAssetGUID: 131b70e9d3ef9a847b62528e176368b0
+    buildTimeAssetPath: Assets/Textures/hint1.png
+  - fileID: 205
+    classID: 28
+    packedSize: 4204
+    offset: 2416656
+    sourceAssetGUID: 1378a33cdd085d64c9da863d2484ff21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_47.png
+  - fileID: 206
+    classID: 28
+    packedSize: 4204
+    offset: 2420864
+    sourceAssetGUID: 153f7d6dfbe713d4884df0f1e243ba92
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_16.png
+  - fileID: 207
+    classID: 28
+    packedSize: 4204
+    offset: 2425072
+    sourceAssetGUID: 15e54aa23a938444389469d53765d741
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_44.png
+  - fileID: 208
+    classID: 28
+    packedSize: 13960
+    offset: 2429280
+    sourceAssetGUID: 185f0e254baf57b4980e710c1db0ce07
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Pants.fw.png
+  - fileID: 209
+    classID: 28
+    packedSize: 3716
+    offset: 2443240
+    sourceAssetGUID: 18b91fc14dc398a40a6bbf133e722b0c
+    buildTimeAssetPath: Assets/Krusty Krab Employee Hat/Krusty Krab Hat3.fw.png
+  - fileID: 210
+    classID: 28
+    packedSize: 4204
+    offset: 2446960
+    sourceAssetGUID: 1a9ce5640cde5934aae0022f020464a6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_40.png
+  - fileID: 211
+    classID: 28
+    packedSize: 65644
+    offset: 2451168
+    sourceAssetGUID: 1abfe0e165ca1e9428b455ffc9a2d9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_2.png
+  - fileID: 212
+    classID: 28
+    packedSize: 52192
+    offset: 2516816
+    sourceAssetGUID: 1bfde1a722a9ecc4bb4c6bbb7a528302
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (4).jpeg
+  - fileID: 213
+    classID: 28
+    packedSize: 4204
+    offset: 2569008
+    sourceAssetGUID: 1d6958e30e40a254dbe5a54c573eeb3c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png
+  - fileID: 214
+    classID: 28
+    packedSize: 4320
+    offset: 2573216
+    sourceAssetGUID: 1e003b7c85fdf604587ad84e2ec1cc4e
+    buildTimeAssetPath: Assets/Squidward/Squidward's Head.fw.png
+  - fileID: 215
+    classID: 28
+    packedSize: 35848
+    offset: 2577536
+    sourceAssetGUID: 1ff82847caff59c439c9ba10dd93f9cf
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (1).jpeg
+  - fileID: 216
+    classID: 28
+    packedSize: 1398244
+    offset: 2613384
+    sourceAssetGUID: 257db2c7cc711aa4383374e7b735a6b2
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+  - fileID: 217
+    classID: 28
+    packedSize: 51180
+    offset: 4011632
+    sourceAssetGUID: 25c9336ab4a73be4b8b35638da9318fe
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (7).jpeg
+  - fileID: 218
+    classID: 28
+    packedSize: 42144
+    offset: 4062816
+    sourceAssetGUID: 28d3b0bf1b8c2ee4fb4b39dbda09a24e
+    buildTimeAssetPath: Assets/Textures/Wood_PlanksRough1_2x2_1K_height.tif
+  - fileID: 219
+    classID: 28
+    packedSize: 61560
+    offset: 4104960
+    sourceAssetGUID: 297afb464c9499b43a970d01984652d3
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (9).jpeg
+  - fileID: 220
+    classID: 28
+    packedSize: 57956
+    offset: 4166520
+    sourceAssetGUID: 298ffef8a0be368429af0f89ba06b904
+    buildTimeAssetPath: Assets/Textures/stretched 2.jpg
+  - fileID: 221
+    classID: 28
+    packedSize: 9328
+    offset: 4224480
+    sourceAssetGUID: 2a001f4195f9cc0449619e5652d7b893
+    buildTimeAssetPath: Assets/Textures/beanSign.png
+  - fileID: 222
+    classID: 28
+    packedSize: 31444
+    offset: 4233808
+    sourceAssetGUID: 2a6d22ba5103f714a9c3463f8bb2bbd7
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930405.jpeg
+  - fileID: 223
+    classID: 28
+    packedSize: 193680
+    offset: 4265256
+    sourceAssetGUID: 2eb7feed91f607440a55bb7c42cd4401
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (7).jpeg
+  - fileID: 224
+    classID: 28
+    packedSize: 4204
+    offset: 4458936
+    sourceAssetGUID: 2ee161d8945169243b5698fec114e1b7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_15.png
+  - fileID: 225
+    classID: 28
+    packedSize: 31392
+    offset: 4463144
+    sourceAssetGUID: 30bf9e6cbce1b464381bffff316e8d2b
+    buildTimeAssetPath: Assets/beer_cup/textures/beercup_bump.jpg
+  - fileID: 226
+    classID: 28
+    packedSize: 31196
+    offset: 4494536
+    sourceAssetGUID: 3120fe8aa3b85954a95949d16886b4ba
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (11).jpeg
+  - fileID: 227
+    classID: 28
+    packedSize: 4204
+    offset: 4525736
+    sourceAssetGUID: 319b8e66db3faa4438cf6982e9c89b2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_34.png
+  - fileID: 228
+    classID: 28
+    packedSize: 52220
+    offset: 4529944
+    sourceAssetGUID: 323fdaccda29424449c904b31ab86f89
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (12).jpeg
+  - fileID: 229
+    classID: 28
+    packedSize: 4204
+    offset: 4582168
+    sourceAssetGUID: 32c6a5f7143b86c44bd5cdee2ff3f8ad
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_24.png
+  - fileID: 230
+    classID: 28
+    packedSize: 121256
+    offset: 4586376
+    sourceAssetGUID: 3386fccf008e0504ab2db4fde7013e40
+    buildTimeAssetPath: Assets/Textures/Concrete_WW2_2x2_1K_normal.tif
+  - fileID: 231
+    classID: 28
+    packedSize: 4204
+    offset: 4707632
+    sourceAssetGUID: 351e95d0e20a54849bd4ce5f9b498934
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_36.png
+  - fileID: 232
+    classID: 28
+    packedSize: 26440
+    offset: 4711840
+    sourceAssetGUID: 3559e3c0d20812941844bba5e51429f6
+    buildTimeAssetPath: Assets/Textures/Wood_BarkWillow_0.3x0.6_1K_height.tif
+  - fileID: 233
+    classID: 28
+    packedSize: 150360
+    offset: 4738280
+    sourceAssetGUID: 360f3ab2ff6b79341a4d8179426368ef
+    buildTimeAssetPath: Assets/johnnys-beer/textures/bottle_low_lambert1_Glossiness.png
+  - fileID: 234
+    classID: 28
+    packedSize: 23892
+    offset: 4888640
+    sourceAssetGUID: 36813bd1d78d1f34f8e25e631a6e7d08
+    buildTimeAssetPath: Assets/Textures/CHUMBUCKET SURPRISE.psd
+  - fileID: 235
+    classID: 28
+    packedSize: 4204
+    offset: 4912536
+    sourceAssetGUID: 373f9bf6b0841af4ebf26d25e4a3f4e2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_3.png
+  - fileID: 236
+    classID: 28
+    packedSize: 56920
+    offset: 4916744
+    sourceAssetGUID: 3746bdb4b4afbde4b99ddfae80719840
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (10).jpeg
+  - fileID: 237
+    classID: 28
+    packedSize: 19308
+    offset: 4973664
+    sourceAssetGUID: 389de85d1c2203845a67c058bc4c4b38
+    buildTimeAssetPath: Assets/Textures/Metal_FineGold_1K_normal.tif
+  - fileID: 238
+    classID: 28
+    packedSize: 30592
+    offset: 4992976
+    sourceAssetGUID: 39ce4b47da4a35e47831c89d573ab332
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Metal_AluminumBrushed_1K_albedo.tif
+  - fileID: 239
+    classID: 28
+    packedSize: 4204
+    offset: 5023568
+    sourceAssetGUID: 3ac02e7e783571c468f9c086d2384ba7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_7.png
+  - fileID: 240
+    classID: 28
+    packedSize: 1398244
+    offset: 5027776
+    sourceAssetGUID: 3b2e823b2588596499f0b5bcc4884c7c
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png
+  - fileID: 241
+    classID: 28
+    packedSize: 13960
+    offset: 6426024
+    sourceAssetGUID: 3bb4fd050fd6e574690b38d923330701
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Belt1.fw.png
+  - fileID: 242
+    classID: 28
+    packedSize: 25236
+    offset: 6439984
+    sourceAssetGUID: 3c01f871537d66e4a8b178e5fa22a792
+    buildTimeAssetPath: Assets/Textures/TOGGLE SONG.psd
+  - fileID: 243
+    classID: 28
+    packedSize: 4144
+    offset: 6465224
+    sourceAssetGUID: 3c09f050b9cd2eb4ab8394023ef69b7e
+    buildTimeAssetPath: Assets/Squidward/Squidward's Eyes.fw.png
+  - fileID: 244
+    classID: 28
+    packedSize: 4204
+    offset: 6469368
+    sourceAssetGUID: 3c2f1fb7e4b66e74191b7c328ada52d9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png
+  - fileID: 245
+    classID: 28
+    packedSize: 15240
+    offset: 6473576
+    sourceAssetGUID: 3c6e7353fc0216b4399ed218aa1813dc
+    buildTimeAssetPath: Assets/Shrek/textures 1/shrekball.jpeg
+  - fileID: 246
+    classID: 28
+    packedSize: 38048
+    offset: 6488816
+    sourceAssetGUID: 3dabeea7993985f46b79fc4d061bd7af
+    buildTimeAssetPath: Assets/Textures/moneyPoster.psd
+  - fileID: 247
+    classID: 28
+    packedSize: 80988
+    offset: 6526864
+    sourceAssetGUID: 3e3d9461f90d26e47bc950544866b931
+    buildTimeAssetPath: Assets/Textures/Wood_PlanksRough1_2x2_1K_normal (1).tif
+  - fileID: 248
+    classID: 28
+    packedSize: 21436
+    offset: 6607856
+    sourceAssetGUID: 3e4f3447b806b814abbb06c5280209ea
+    buildTimeAssetPath: Assets/Textures/LQ MIRROR.psd
+  - fileID: 249
+    classID: 28
+    packedSize: 4204
+    offset: 6629296
+    sourceAssetGUID: 3f7c3687170b90e4a8d2ee6b142670f4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_49.png
+  - fileID: 250
+    classID: 28
+    packedSize: 110324
+    offset: 6633504
+    sourceAssetGUID: 3ff76ec72b7faf1459a3db44fd00314f
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Pavement_ConcretePlatesOld_2.4x2.4_512_normal.tif
+  - fileID: 251
+    classID: 28
+    packedSize: 4204
+    offset: 6743832
+    sourceAssetGUID: 404fa8def46b1c447817e1ebdaa7144e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_60.png
+  - fileID: 252
+    classID: 28
+    packedSize: 75948
+    offset: 6748040
+    sourceAssetGUID: 4822a61766709bf41904d80249fb1b67
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (3).jpeg
+  - fileID: 253
+    classID: 28
+    packedSize: 30396
+    offset: 6823992
+    sourceAssetGUID: 4930f6aaa9032ff4fb2a9bab21a71e61
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Rope_NaturalSisal_512_height.tif
+  - fileID: 254
+    classID: 28
+    packedSize: 4204
+    offset: 6854392
+    sourceAssetGUID: 4a11d65ce13d5f542a0ff136cc2f3fba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_63.png
+  - fileID: 255
+    classID: 28
+    packedSize: 4204
+    offset: 6858600
+    sourceAssetGUID: 50b54341495978843a6f85583ed4417d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_0.png
+  - fileID: 256
+    classID: 28
+    packedSize: 4204
+    offset: 6862808
+    sourceAssetGUID: 547dbd5f858c74047ba3f213e4408307
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_39.png
+  - fileID: 257
+    classID: 28
+    packedSize: 92716
+    offset: 6867016
+    sourceAssetGUID: 5532f149e8bda1a43af944687ebebaf8
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (4).png
+  - fileID: 258
+    classID: 28
+    packedSize: 20360
+    offset: 6959736
+    sourceAssetGUID: 559bd12531a0d4c4190fbe39e0f325bd
+    buildTimeAssetPath: Assets/Textures/14042_750 mL_Wine_Bottle_dfinal.jpg
+  - fileID: 259
+    classID: 28
+    packedSize: 48460
+    offset: 6980096
+    sourceAssetGUID: 55e05056b02fd52409104b24b709ed98
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (16).jpeg
+  - fileID: 260
+    classID: 28
+    packedSize: 172768
+    offset: 7028560
+    sourceAssetGUID: 58ae13a8084572c4f8642e59e3045d8e
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384.jpeg
+  - fileID: 261
+    classID: 28
+    packedSize: 53880
+    offset: 7201328
+    sourceAssetGUID: 5a937df3731f653439460a9e27763746
+    buildTimeAssetPath: Assets/Textures/Metal_WallPanel_1K_normal.tif
+  - fileID: 262
+    classID: 28
+    packedSize: 37836
+    offset: 7255208
+    sourceAssetGUID: 5ad7d9fab48794e4a8a525a46b40abb4
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Metal_AluminumBrushed_1K_normal.tif
+  - fileID: 263
+    classID: 28
+    packedSize: 62140
+    offset: 7293048
+    sourceAssetGUID: 5bce9df1bc254c04db7e82b9b67bbb78
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (2).jpeg
+  - fileID: 264
+    classID: 28
+    packedSize: 3740
+    offset: 7355192
+    sourceAssetGUID: 5de02685ccbb90846a10849b3cc8f98d
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Metal_AluminumBrushed_1K_metallic.tif
+  - fileID: 265
+    classID: 28
+    packedSize: 4204
+    offset: 7358936
+    sourceAssetGUID: 5e542d0126a2c7848b66bffc428905fd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_55.png
+  - fileID: 266
+    classID: 28
+    packedSize: 47916
+    offset: 7363144
+    sourceAssetGUID: 5e66e49139ef2de45a7bbce653a5187b
+    buildTimeAssetPath: Assets/Textures/Concrete_Base12_2x2_1K_ao.tif
+  - fileID: 267
+    classID: 28
+    packedSize: 65644
+    offset: 7411064
+    sourceAssetGUID: 6017f374382d64245a0a4aab668e6f38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_0.png
+  - fileID: 268
+    classID: 28
+    packedSize: 174888
+    offset: 7476712
+    sourceAssetGUID: 6344bf96fbda94141a525046d088fb23
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png
+  - fileID: 269
+    classID: 28
+    packedSize: 45360
+    offset: 7651600
+    sourceAssetGUID: 6359ff6ce9192c44c9944ec66fd9b0a1
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (1).jpeg
+  - fileID: 270
+    classID: 28
+    packedSize: 4204
+    offset: 7696960
+    sourceAssetGUID: 68613e6a221be1a4b9f31d7fa1c2d1bf
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_13.png
+  - fileID: 271
+    classID: 28
+    packedSize: 114868
+    offset: 7701168
+    sourceAssetGUID: 6891126620900e14b81e6366aa10b73a
+    buildTimeAssetPath: Assets/Textures/Concrete_Base12_2x2_1K_normal.tif
+  - fileID: 272
+    classID: 28
+    packedSize: 46876
+    offset: 7816040
+    sourceAssetGUID: 6a408024f9ee81840899939a963f03b0
+    buildTimeAssetPath: Assets/Textures/cursedpanik.png
+  - fileID: 273
+    classID: 28
+    packedSize: 4204
+    offset: 7862920
+    sourceAssetGUID: 6b0a189df0bd4d5448eaefb4e673ace8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_31.png
+  - fileID: 274
+    classID: 28
+    packedSize: 4372
+    offset: 7867128
+    sourceAssetGUID: 6c4109f271f405f4cb70239d66324ea1
+    buildTimeAssetPath: Assets/sponge-bob/textures/SpongeBob_Metallic.png
+  - fileID: 275
+    classID: 28
+    packedSize: 4204
+    offset: 7871504
+    sourceAssetGUID: 6dda07f1420a968449cf4c6620c44d9f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_20.png
+  - fileID: 276
+    classID: 28
+    packedSize: 4204
+    offset: 7875712
+    sourceAssetGUID: 6fa5cf178eaaa5f42b820f636bb6e0bd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png
+  - fileID: 277
+    classID: 28
+    packedSize: 65644
+    offset: 7879920
+    sourceAssetGUID: 70d0a1182b29d6347ac70374c3593bba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_7.png
+  - fileID: 278
+    classID: 28
+    packedSize: 4204
+    offset: 7945568
+    sourceAssetGUID: 70f23eaf7d8ae9147aa542d20e93733b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_56.png
+  - fileID: 279
+    classID: 28
+    packedSize: 4204
+    offset: 7949776
+    sourceAssetGUID: 71583cfd8899717428d5b1a95fa39cda
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_9.png
+  - fileID: 280
+    classID: 28
+    packedSize: 77648
+    offset: 7953984
+    sourceAssetGUID: 7174a95d890503244a1097f0878baeb0
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (4).jpeg
+  - fileID: 281
+    classID: 28
+    packedSize: 4204
+    offset: 8031632
+    sourceAssetGUID: 71bc1b6b66e8b784b972199b7e90204e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_43.png
+  - fileID: 282
+    classID: 28
+    packedSize: 146116
+    offset: 8035840
+    sourceAssetGUID: 7229576c61b1af9469a5b539bbfc8e3b
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (5).jpeg
+  - fileID: 283
+    classID: 28
+    packedSize: 53968
+    offset: 8181960
+    sourceAssetGUID: 7241fe4fed6100c4b8111736b12dbd2a
+    buildTimeAssetPath: Assets/Shrek/textures 1/shrekhead.jpeg
+  - fileID: 284
+    classID: 28
+    packedSize: 4204
+    offset: 8235928
+    sourceAssetGUID: 729a3ae164bcb3b4380459386adcf331
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_19.png
+  - fileID: 285
+    classID: 28
+    packedSize: 28052
+    offset: 8240136
+    sourceAssetGUID: 73d8faa7c0df8bb40b578635b5f39ae2
+    buildTimeAssetPath: Assets/chain/textures/Redpaint_Reflection.jpg
+  - fileID: 286
+    classID: 28
+    packedSize: 268904
+    offset: 8268192
+    sourceAssetGUID: 73ec4ae984a0a0f44a2be737e41a6f2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
+  - fileID: 287
+    classID: 28
+    packedSize: 4204
+    offset: 8537096
+    sourceAssetGUID: 74aca53eb7273624baffc2bf5e5cc173
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_18.png
+  - fileID: 288
+    classID: 28
+    packedSize: 16000
+    offset: 8541304
+    sourceAssetGUID: 74ae5a480340fb9418f24beff7175579
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (13).jpeg
+  - fileID: 289
+    classID: 28
+    packedSize: 60580
+    offset: 8557304
+    sourceAssetGUID: 75f843d2ea950c347b96805f1120cf8f
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (6).jpeg
+  - fileID: 290
+    classID: 28
+    packedSize: 4204
+    offset: 8617888
+    sourceAssetGUID: 771903fe7b4674445829e52e91cff019
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_11.png
+  - fileID: 291
+    classID: 28
+    packedSize: 113968
+    offset: 8622096
+    sourceAssetGUID: 78b144550df939e439229feff06bbfbe
+    buildTimeAssetPath: Assets/beer_cup/textures/beercup_normal.jpg
+  - fileID: 292
+    classID: 28
+    packedSize: 51540
+    offset: 8736064
+    sourceAssetGUID: 7920f9ef1ec07ca4a853429d95536fd1
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (8).jpeg
+  - fileID: 293
+    classID: 28
+    packedSize: 4204
+    offset: 8787608
+    sourceAssetGUID: 79b86f3419b87f3429164a956da8cfab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_6.png
+  - fileID: 294
+    classID: 28
+    packedSize: 73520
+    offset: 8791816
+    sourceAssetGUID: 7b974f612afe41149bdf59f39ef26335
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Rope_NaturalSisal_512_normal.tif
+  - fileID: 295
+    classID: 28
+    packedSize: 13960
+    offset: 8865336
+    sourceAssetGUID: 7eb12f0ec62afe544a7f0455e5dc577d
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Skin.fw.png
+  - fileID: 296
+    classID: 28
+    packedSize: 38000
+    offset: 8879296
+    sourceAssetGUID: 807078ec3e4360641b30c0b528b29931
+    buildTimeAssetPath: Assets/sponge-bob/textures/SpongeBob_Base_Color.png
+  - fileID: 297
+    classID: 28
+    packedSize: 58108
+    offset: 8917296
+    sourceAssetGUID: 80bb3d33c964418409255b1a6fa7143d
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (6).jpeg
+  - fileID: 298
+    classID: 28
+    packedSize: 76176
+    offset: 8975408
+    sourceAssetGUID: 8455fe838c677844cbfc3b015097cc75
+    buildTimeAssetPath: Assets/Smoke/SmokeTex.jpg
+  - fileID: 299
+    classID: 28
+    packedSize: 3716
+    offset: 9051584
+    sourceAssetGUID: 84bdbc86625c34447b1b59e7ffabcf85
+    buildTimeAssetPath: Assets/Squidward/Squidward's Shirt.fw.png
+  - fileID: 300
+    classID: 28
+    packedSize: 4204
+    offset: 9055304
+    sourceAssetGUID: 85a45a6d8b2ffb84987d2b028ecfb220
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_58.png
+  - fileID: 301
+    classID: 28
+    packedSize: 31284
+    offset: 9059512
+    sourceAssetGUID: 8745de783112f7c41bc762f8fde896cd
+    buildTimeAssetPath: Assets/Textures/Wood_BarkWillow_0.3x0.6_1K_albedo.tif
+  - fileID: 302
+    classID: 28
+    packedSize: 49448
+    offset: 9090800
+    sourceAssetGUID: 877caad45892fcb43b63a6e9192aa633
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (3).jpeg
+  - fileID: 303
+    classID: 28
+    packedSize: 4204
+    offset: 9140248
+    sourceAssetGUID: 87a5e40cc271ea648b583616f6ebe7fe
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_32.png
+  - fileID: 304
+    classID: 28
+    packedSize: 4204
+    offset: 9144456
+    sourceAssetGUID: 8ecbbcae4cc747a4abbc4adce795d25e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_46.png
+  - fileID: 305
+    classID: 28
+    packedSize: 4204
+    offset: 9148664
+    sourceAssetGUID: 936dea238abb0864ab3985a995e16a29
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_54.png
+  - fileID: 306
+    classID: 28
+    packedSize: 13960
+    offset: 9152872
+    sourceAssetGUID: 9390d01e35a285144943ce01fd955b44
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Shirt1.fw.png
+  - fileID: 307
+    classID: 28
+    packedSize: 32260
+    offset: 9166832
+    sourceAssetGUID: 960e908b085c14144bd94db090c533f7
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Rope_NaturalSisal_512_ao.tif
+  - fileID: 308
+    classID: 28
+    packedSize: 4204
+    offset: 9199096
+    sourceAssetGUID: 9660a4ca1ca8425408ac25c641932977
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png
+  - fileID: 309
+    classID: 28
+    packedSize: 4204
+    offset: 9203304
+    sourceAssetGUID: 980acadb960f8424c94307ec0e585b4e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_12.png
+  - fileID: 310
+    classID: 28
+    packedSize: 47944
+    offset: 9207512
+    sourceAssetGUID: 98155c3c5f302e24a946d13da815d2e6
+    buildTimeAssetPath: Assets/Textures/Concrete_Base12_2x2_1K_albedo.tif
+  - fileID: 311
+    classID: 28
+    packedSize: 65644
+    offset: 9255456
+    sourceAssetGUID: 999434725cbc2be4eb54043b36efd4a8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_6.png
+  - fileID: 312
+    classID: 28
+    packedSize: 34192
+    offset: 9321104
+    sourceAssetGUID: 9b72b4e7772d02347b3aeb382d8c60af
+    buildTimeAssetPath: Assets/Textures/grafitti3.psd
+  - fileID: 313
+    classID: 28
+    packedSize: 20124
+    offset: 9355296
+    sourceAssetGUID: 9ddc0cc963cdbeb4fbf0e725a0e32046
+    buildTimeAssetPath: Assets/Plankton/Plankton Body_Tex.png
+  - fileID: 314
+    classID: 28
+    packedSize: 4204
+    offset: 9375424
+    sourceAssetGUID: a03c400b0e3959f428ee99dfc6cfc263
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_62.png
+  - fileID: 315
+    classID: 28
+    packedSize: 4204
+    offset: 9379632
+    sourceAssetGUID: a1ae041906217ae44a774d4ca139af50
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_5.png
+  - fileID: 316
+    classID: 28
+    packedSize: 464
+    offset: 9383840
+    sourceAssetGUID: a30090bc49100724f97e3faec8d8c7cd
+    buildTimeAssetPath: Assets/Textures/moneySide.psd
+  - fileID: 317
+    classID: 28
+    packedSize: 12200
+    offset: 9384304
+    sourceAssetGUID: a42fc216e9b844f63a9fdd16d6a22067
+    buildTimeAssetPath: Assets/WoodBarrel/Images/WoodBarrel_D.tif
+  - fileID: 318
+    classID: 28
+    packedSize: 4204
+    offset: 9396504
+    sourceAssetGUID: a469f920b21fc7c4fb5b950917ce2fb2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png
+  - fileID: 319
+    classID: 28
+    packedSize: 13960
+    offset: 9400712
+    sourceAssetGUID: a495ea6cf8c374f4ead092dba430f558
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Belt2.fw.png
+  - fileID: 320
+    classID: 28
+    packedSize: 76264
+    offset: 9414672
+    sourceAssetGUID: a54d364b914c88840960c39cc8d69dda
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/Textures/body_rim.png
+  - fileID: 321
+    classID: 28
+    packedSize: 11044
+    offset: 9490936
+    sourceAssetGUID: a5da9b3038ad06f4b9a268d6874d6746
+    buildTimeAssetPath: Assets/Patrick/textures/patrick_d.png
+  - fileID: 322
+    classID: 28
+    packedSize: 95328
+    offset: 9501984
+    sourceAssetGUID: aa7681ff27e3c9f4ba2a84afda261ed2
+    buildTimeAssetPath: Assets/johnnys-beer/textures/bottle_low_lambert1_Diffuse.png
+  - fileID: 323
+    classID: 28
+    packedSize: 4204
+    offset: 9597312
+    sourceAssetGUID: aa80dc44aa4fe4c43bb9d51d90cf2958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_29.png
+  - fileID: 324
+    classID: 28
+    packedSize: 41768
+    offset: 9601520
+    sourceAssetGUID: aba7fc3e1d593ee4ea564ff2fc0a3e6b
+    buildTimeAssetPath: Assets/Textures/Concrete_Base12_2x2_1K_height.tif
+  - fileID: 325
+    classID: 28
+    packedSize: 65644
+    offset: 9643288
+    sourceAssetGUID: acde5141d5f4f7a4188394bd52c4dc38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png
+  - fileID: 326
+    classID: 28
+    packedSize: 32476
+    offset: 9708936
+    sourceAssetGUID: adad92e0b8eed45439063a815b92e4ab
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Pavement_ConcretePlatesOld_2.4x2.4_512_ao.tif
+  - fileID: 327
+    classID: 28
+    packedSize: 28120
+    offset: 9741416
+    sourceAssetGUID: af414b2b67278d04981c0a1810cfd968
+    buildTimeAssetPath: Assets/Textures/grafitti1.psd
+  - fileID: 328
+    classID: 28
+    packedSize: 4204
+    offset: 9769536
+    sourceAssetGUID: afe1e502240079342a0a980484b6da8b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_10.png
+  - fileID: 329
+    classID: 28
+    packedSize: 3600
+    offset: 9773744
+    sourceAssetGUID: aff4d1720a2360f41afd0ad0c6f6d248
+    buildTimeAssetPath: Assets/Textures/flag2.psd
+  - fileID: 330
+    classID: 28
+    packedSize: 4204
+    offset: 9777344
+    sourceAssetGUID: aff59c63d25d43f4c938f248837c30fb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_48.png
+  - fileID: 331
+    classID: 28
+    packedSize: 5920
+    offset: 9781552
+    sourceAssetGUID: b0d61d7ec0b6fb14bbcc4e6eeaff6aa8
+    buildTimeAssetPath: Assets/Krusty Krab Employee Hat/Krusty Krab Hat.fw.png
+  - fileID: 332
+    classID: 28
+    packedSize: 4204
+    offset: 9787472
+    sourceAssetGUID: b266511438fae724f9d3ce6bd26583e8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_42.png
+  - fileID: 333
+    classID: 28
+    packedSize: 7464
+    offset: 9791680
+    sourceAssetGUID: b48ab1f90a4f6fb4e84ae45def023d52
+    buildTimeAssetPath: Assets/Textures/hint2.png
+  - fileID: 334
+    classID: 28
+    packedSize: 65644
+    offset: 9799144
+    sourceAssetGUID: b52d5033b68309943a2386c270a90f44
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_4.png
+  - fileID: 335
+    classID: 28
+    packedSize: 2656
+    offset: 9864792
+    sourceAssetGUID: b5b9fd9b84678814fac20ca4d7d8b79a
+    buildTimeAssetPath: Assets/Textures/flag3.psd
+  - fileID: 336
+    classID: 28
+    packedSize: 4204
+    offset: 9867448
+    sourceAssetGUID: b71bb466b71fd13449dd736f63caeb67
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png
+  - fileID: 337
+    classID: 28
+    packedSize: 4204
+    offset: 9871656
+    sourceAssetGUID: b7f000750830ddb4bbc80065b9314ce9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_21.png
+  - fileID: 338
+    classID: 28
+    packedSize: 233412
+    offset: 9875864
+    sourceAssetGUID: b9599077f1600b44e8bb04a222fc6222
+    buildTimeAssetPath: Assets/Shrek/textures/shrekbody.png
+  - fileID: 339
+    classID: 28
+    packedSize: 4204
+    offset: 10109280
+    sourceAssetGUID: b9960364038cbfa4aa49d7b2032d3110
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_45.png
+  - fileID: 340
+    classID: 28
+    packedSize: 37708
+    offset: 10113488
+    sourceAssetGUID: b9e73c4de3310ed4aa2349c1c00b1d2f
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299.png
+  - fileID: 341
+    classID: 28
+    packedSize: 12420
+    offset: 10151200
+    sourceAssetGUID: ba2c2257fbd5127438c0338072515200
+    buildTimeAssetPath: Assets/Textures/Metal_WallPanel_1K_ao.tif
+  - fileID: 342
+    classID: 28
+    packedSize: 3716
+    offset: 10163624
+    sourceAssetGUID: bcc486bb09a31d64bb2ffba53a62cfe0
+    buildTimeAssetPath: Assets/Squidward/Squidward's Skin.fw.png
+  - fileID: 343
+    classID: 28
+    packedSize: 4204
+    offset: 10167344
+    sourceAssetGUID: bdd06fb88ef36ed4a85dd506352c2d80
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_27.png
+  - fileID: 344
+    classID: 28
+    packedSize: 4204
+    offset: 10171552
+    sourceAssetGUID: bf95b6fdc179b0e4f890c841406193fc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_17.png
+  - fileID: 345
+    classID: 28
+    packedSize: 26204
+    offset: 10175760
+    sourceAssetGUID: bfa5cbd713c805d42a253f4810d201a0
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Pants2.png
+  - fileID: 346
+    classID: 28
+    packedSize: 55256
+    offset: 10201968
+    sourceAssetGUID: bfe4473e636625d4a9444daa64c283a0
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (3).png
+  - fileID: 347
+    classID: 28
+    packedSize: 4204
+    offset: 10257224
+    sourceAssetGUID: bfe953600e8fb1849a804ee08ace7b4c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_23.png
+  - fileID: 348
+    classID: 28
+    packedSize: 65644
+    offset: 10261432
+    sourceAssetGUID: c072b653e98a06e40857d76ca8c7eecd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_3.png
+  - fileID: 349
+    classID: 28
+    packedSize: 54580
+    offset: 10327080
+    sourceAssetGUID: c07409ea62d596f42ac8d3d351039ac7
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (6).png
+  - fileID: 350
+    classID: 28
+    packedSize: 4204
+    offset: 10381664
+    sourceAssetGUID: c55042318a938344ab23cd7f09dd0076
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_8.png
+  - fileID: 351
+    classID: 28
+    packedSize: 4488
+    offset: 10385872
+    sourceAssetGUID: c7fdf3741ca2bb447a6d3a7c2357c4f9
+    buildTimeAssetPath: Assets/sponge-bob/textures/SpongeBob_Mixed_AO.png
+  - fileID: 352
+    classID: 28
+    packedSize: 56616
+    offset: 10390360
+    sourceAssetGUID: c84f8a84a1eba7a4cb3b5e510325aa23
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Pavement_ConcretePlatesOld_2.4x2.4_512_albedo.tif
+  - fileID: 353
+    classID: 28
+    packedSize: 3716
+    offset: 10446976
+    sourceAssetGUID: c948ab588e89c9e49af2061b10248b2b
+    buildTimeAssetPath: Assets/Squidward/Squidward's Mouth.fw.png
+  - fileID: 354
+    classID: 28
+    packedSize: 4204
+    offset: 10450696
+    sourceAssetGUID: c94b57b5a32a22d43ade66e09f6a4bd2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_53.png
+  - fileID: 355
+    classID: 28
+    packedSize: 3524
+    offset: 10454904
+    sourceAssetGUID: ca678b877c1398d43adc5a7173eb37e3
+    buildTimeAssetPath: Assets/Textures/flag1.psd
+  - fileID: 356
+    classID: 28
+    packedSize: 192532
+    offset: 10458432
+    sourceAssetGUID: cb9e831f422da04478f8130a255e4e36
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/Textures/2.png
+  - fileID: 357
+    classID: 28
+    packedSize: 4204
+    offset: 10650968
+    sourceAssetGUID: cd9006dc442cc244e89b3f492384d46a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_41.png
+  - fileID: 358
+    classID: 28
+    packedSize: 39596
+    offset: 10655176
+    sourceAssetGUID: cd902263bab91384bbfcc467173a245f
+    buildTimeAssetPath: Assets/beer_cup/textures/beercup_ao.jpg
+  - fileID: 359
+    classID: 28
+    packedSize: 10208
+    offset: 10694776
+    sourceAssetGUID: cf5859a1f7a89ba4cb5468d9d6b45760
+    buildTimeAssetPath: Assets/Textures/money.psd
+  - fileID: 360
+    classID: 28
+    packedSize: 50304
+    offset: 10704984
+    sourceAssetGUID: cf90c2037e1f2b547a9a87006a75d396
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (5).jpeg
+  - fileID: 361
+    classID: 28
+    packedSize: 58944
+    offset: 10755288
+    sourceAssetGUID: d028423e67e72f845b284845f244eb78
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (2).jpeg
+  - fileID: 362
+    classID: 28
+    packedSize: 34636
+    offset: 10814232
+    sourceAssetGUID: d17c4fabc3110cb4cb1e79df3bfe34ee
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (1).png
+  - fileID: 363
+    classID: 28
+    packedSize: 51780
+    offset: 10848872
+    sourceAssetGUID: d1c81468291f64448986b57f5ed6b846
+    buildTimeAssetPath: Assets/beer_cup/textures/beercup_basecolor.jpg
+  - fileID: 364
+    classID: 28
+    packedSize: 13956
+    offset: 10900656
+    sourceAssetGUID: d1cb41580001446429db0dfa30143ec5
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Eyes.fw.png
+  - fileID: 365
+    classID: 28
+    packedSize: 4204
+    offset: 10914616
+    sourceAssetGUID: d2e8e90fac2e6a341a38e1c3963c218d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_52.png
+  - fileID: 366
+    classID: 28
+    packedSize: 4204
+    offset: 10918824
+    sourceAssetGUID: d5a51525b27e3ee4aadbeb39cbcf0750
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_51.png
+  - fileID: 367
+    classID: 28
+    packedSize: 390704
+    offset: 10923032
+    sourceAssetGUID: d865a360ad528514dbeec7ace93f9bff
+    buildTimeAssetPath: Assets/Shrek/textures/shrekbodyN.png
+  - fileID: 368
+    classID: 28
+    packedSize: 36064
+    offset: 11313736
+    sourceAssetGUID: d88f6dc43b6f0714b9284048869e92e7
+    buildTimeAssetPath: Assets/Textures/grafitti5.psd
+  - fileID: 369
+    classID: 28
+    packedSize: 4204
+    offset: 11349800
+    sourceAssetGUID: d8c290e38ff0425409d0ae6a98c95e41
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_50.png
+  - fileID: 370
+    classID: 28
+    packedSize: 4204
+    offset: 11354008
+    sourceAssetGUID: d96974690c77f50489eb60ec84bd8dac
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_59.png
+  - fileID: 371
+    classID: 28
+    packedSize: 1132
+    offset: 11358216
+    sourceAssetGUID: d99701099481a2f489610e977df6dcbc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/SearchTex.tga
+  - fileID: 372
+    classID: 28
+    packedSize: 19588
+    offset: 11359352
+    sourceAssetGUID: da4dd42e642a63448bac53c1243bf2f0
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Mouth.png
+  - fileID: 373
+    classID: 28
+    packedSize: 24152
+    offset: 11378944
+    sourceAssetGUID: de72a386ccc2ae44cbae8d818e5ce67d
+    buildTimeAssetPath: Assets/Textures/fish_texture.png
+  - fileID: 374
+    classID: 28
+    packedSize: 58300
+    offset: 11403096
+    sourceAssetGUID: dec477a22ca950544b7554230ac7356a
+    buildTimeAssetPath: Assets/Textures/Leather_Plain02_02x02_512_height.tif
+  - fileID: 375
+    classID: 28
+    packedSize: 4204
+    offset: 11461400
+    sourceAssetGUID: df01d03f056c6f445b4b8a0ae054207c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_22.png
+  - fileID: 376
+    classID: 28
+    packedSize: 4204
+    offset: 11465608
+    sourceAssetGUID: e138166e7a7c70f49943be7edda35d35
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_57.png
+  - fileID: 377
+    classID: 28
+    packedSize: 171256
+    offset: 11469816
+    sourceAssetGUID: e21c9fe3bdc83ca4d846bb133d5c720c
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (2).png
+  - fileID: 378
+    classID: 28
+    packedSize: 87512
+    offset: 11641072
+    sourceAssetGUID: e62f3114b7777db47b485935267941ef
+    buildTimeAssetPath: Assets/Smoke/EmberTex.png
+  - fileID: 379
+    classID: 28
+    packedSize: 3712
+    offset: 11728584
+    sourceAssetGUID: e8b6ed29cb9ddc7478962784299f5579
+    buildTimeAssetPath: Assets/Krusty Krab Employee Hat/Krusty Krab Hat2.fw.png
+  - fileID: 380
+    classID: 28
+    packedSize: 158668
+    offset: 11732296
+    sourceAssetGUID: ea49e353c95f4d9419e7f165fa74afd6
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299 (5).png
+  - fileID: 381
+    classID: 28
+    packedSize: 28268
+    offset: 11890968
+    sourceAssetGUID: ed77234a98f75c44d86d077177ecf15c
+    buildTimeAssetPath: Assets/Textures/TexturesCom_Pavement_ConcretePlatesOld_2.4x2.4_512_height.tif
+  - fileID: 382
+    classID: 28
+    packedSize: 1398248
+    offset: 11919240
+    sourceAssetGUID: efacdcd7921aad94ba8fedce4dca7701
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
+  - fileID: 383
+    classID: 28
+    packedSize: 40376
+    offset: 13317488
+    sourceAssetGUID: f08f4386f94475f4ebe9f41988d57c74
+    buildTimeAssetPath: Assets/Plankton/Plankton Eye_Tex.png
+  - fileID: 384
+    classID: 28
+    packedSize: 79056
+    offset: 13357864
+    sourceAssetGUID: f08fd7c7c1ad2714a9ab80776c573052
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (9).jpeg
+  - fileID: 385
+    classID: 28
+    packedSize: 44868
+    offset: 13436920
+    sourceAssetGUID: f0e9d3d82869a0e439f3b36c59e3611d
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930299.jpeg
+  - fileID: 386
+    classID: 28
+    packedSize: 73544
+    offset: 13481792
+    sourceAssetGUID: f1ad98b7e873c334e8ef41357f548b4b
+    buildTimeAssetPath: Assets/Textures/Wood_BarkWillow_0.3x0.6_1K_normal.tif
+  - fileID: 387
+    classID: 28
+    packedSize: 13964
+    offset: 13555336
+    sourceAssetGUID: f1d0af0e5d8e4084596297097565048d
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Eye Brows.fw.png
+  - fileID: 388
+    classID: 28
+    packedSize: 71108
+    offset: 13569304
+    sourceAssetGUID: f2278a5a4b4c5384bb4b7fade827076d
+    buildTimeAssetPath: Assets/SQUIDWARD BUTTON.psd
+  - fileID: 389
+    classID: 28
+    packedSize: 164852
+    offset: 13640416
+    sourceAssetGUID: f2f6eb899bed9ed4fbddb2049b361f29
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (10).jpeg
+  - fileID: 390
+    classID: 28
+    packedSize: 4204
+    offset: 13805272
+    sourceAssetGUID: f4b8ab78b57749d4e96d36f6d8a395d0
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_25.png
+  - fileID: 391
+    classID: 28
+    packedSize: 60804
+    offset: 13809480
+    sourceAssetGUID: f568aac634a63f2418367b2291ef34c6
+    buildTimeAssetPath: Assets/Cursed Images/Attachment_1638930384 (15).jpeg
+  - fileID: 392
+    classID: 28
+    packedSize: 4204
+    offset: 13870288
+    sourceAssetGUID: f6439b54b28f3884eb67579dec0b6f21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_14.png
+  - fileID: 393
+    classID: 28
+    packedSize: 98772
+    offset: 13874496
+    sourceAssetGUID: fa8b26b8f86f1904e82b4116f1b12f71
+    buildTimeAssetPath: Assets/sponge-bob/textures/SpongeBob_Normal_DirectX.png
+  - fileID: 394
+    classID: 28
+    packedSize: 5800
+    offset: 13973272
+    sourceAssetGUID: fb47eabf5fd829a4f8eeae8a69c6117f
+    buildTimeAssetPath: Assets/Textures/flag4.psd
+  - fileID: 395
+    classID: 28
+    packedSize: 13960
+    offset: 13979072
+    sourceAssetGUID: fbd71edd9c338f745a425f76caa0b27c
+    buildTimeAssetPath: Assets/Mr Krabs/Mr. Krabs Shirt2.fw.png
+  - fileID: 396
+    classID: 28
+    packedSize: 37052
+    offset: 13993032
+    sourceAssetGUID: fc4e14c27301d1b4ca5a28bb9aa14d9c
+    buildTimeAssetPath: Assets/Textures/grafitti2.psd
+  - fileID: 397
+    classID: 28
+    packedSize: 31756
+    offset: 14030088
+    sourceAssetGUID: ff64ce2b3468a4c40b54de5e2da0b6a0
+    buildTimeAssetPath: Assets/WoodBarrel/Images/WoodBarrel_N.tif
+  - fileID: 398
+    classID: 43
+    packedSize: 10120
+    offset: 14061848
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 399
+    classID: 43
+    packedSize: 1768
+    offset: 14071968
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 400
+    classID: 43
+    packedSize: 50084
+    offset: 14073736
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 401
+    classID: 43
+    packedSize: 11972
+    offset: 14123824
+    sourceAssetGUID: 33d99646112234045ad6d007b1b6da52
+    buildTimeAssetPath: Assets/johnnys-beer/source/beer bottle scene.fbx
+  - fileID: 402
+    classID: 43
+    packedSize: 24948
+    offset: 14135800
+    sourceAssetGUID: bf14c8866d067b04392e18a95ac33e2e
+    buildTimeAssetPath: Assets/plunger/source/Plunger_Low2.fbx
+  - fileID: 403
+    classID: 43
+    packedSize: 287616
+    offset: 14160752
+    sourceAssetGUID: d9dbc6a0380272b4889910b76070e4d1
+    buildTimeAssetPath: Assets/Shrek/source/Walking.fbx
+  - fileID: 404
+    classID: 43
+    packedSize: 762312
+    offset: 14448368
+    sourceAssetGUID: eeeae3419b261324ea0f5e0aff0f423c
+    buildTimeAssetPath: Assets/Prefabs&Models/14042_750_mL_Wine_Bottle_r_v1_L3.obj
+  - fileID: 405
+    classID: 43
+    packedSize: 3956
+    offset: 15210680
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 406
+    classID: 43
+    packedSize: 158376
+    offset: 15214640
+    sourceAssetGUID: 0a5aad1a8a01a554f9029807ac45e0b0
+    buildTimeAssetPath: Assets/Plankton/Plankton.FBX
+  - fileID: 407
+    classID: 43
+    packedSize: 13688
+    offset: 15373016
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 408
+    classID: 43
+    packedSize: 5576
+    offset: 15386704
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 409
+    classID: 43
+    packedSize: 8508
+    offset: 15392280
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 410
+    classID: 43
+    packedSize: 1868
+    offset: 15400792
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 411
+    classID: 43
+    packedSize: 9196
+    offset: 15402664
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 412
+    classID: 43
+    packedSize: 8504
+    offset: 15411864
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 413
+    classID: 43
+    packedSize: 1864
+    offset: 15420368
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 414
+    classID: 43
+    packedSize: 1104
+    offset: 15422232
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 415
+    classID: 43
+    packedSize: 238968
+    offset: 15423336
+    sourceAssetGUID: 87c37b6c661387443872945c14711dca
+    buildTimeAssetPath: Assets/Patrick/source/11_Bryan_Patrick_Rig.fbx
+  - fileID: 416
+    classID: 43
+    packedSize: 18288
+    offset: 15662304
+    sourceAssetGUID: 2543001aacdd2b34f8ae323964734047
+    buildTimeAssetPath: Assets/Prefabs&Models/fish.obj
+  - fileID: 417
+    classID: 43
+    packedSize: 3460
+    offset: 15680592
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 418
+    classID: 43
+    packedSize: 5636
+    offset: 15684056
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 419
+    classID: 43
+    packedSize: 377084
+    offset: 15689696
+    sourceAssetGUID: ef6fe1e484284b34f82644be0b5d19fb
+    buildTimeAssetPath: Assets/beer_cup/beercup.obj
+  - fileID: 420
+    classID: 43
+    packedSize: 2583716
+    offset: 16066784
+    sourceAssetGUID: 5445c6c309f709e499c3436cd87e21ae
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/FBX's/Ears.fbx
+  - fileID: 421
+    classID: 43
+    packedSize: 83184
+    offset: 18650504
+    sourceAssetGUID: b805895f33a2c7b4db6bfb749fd3bd53
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/FBX's/FluffyDommy.fbx
+  - fileID: 422
+    classID: 43
+    packedSize: 66292
+    offset: 18733688
+    sourceAssetGUID: 47365cc78e5cfad41badc534e3d2b7e1
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Cheese.fbx
+  - fileID: 423
+    classID: 43
+    packedSize: 40424
+    offset: 18799984
+    sourceAssetGUID: 54b107e50acd7e24b96d7de887c68833
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  - fileID: 424
+    classID: 43
+    packedSize: 40016
+    offset: 18840408
+    sourceAssetGUID: 7977e423937da9b48aac1866c67bb5be
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Watermelon.fbx
+  - fileID: 425
+    classID: 43
+    packedSize: 20235148
+    offset: 18880424
+    sourceAssetGUID: b805895f33a2c7b4db6bfb749fd3bd53
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/FBX's/FluffyDommy.fbx
+  - fileID: 426
+    classID: 43
+    packedSize: 37384
+    offset: 39115576
+    sourceAssetGUID: fdc7d8dffa381b54cb7740b8761d54c0
+    buildTimeAssetPath: Assets/AddOns/Mg3D_Food/Hotdog.fbx
+  - fileID: 427
+    classID: 43
+    packedSize: 23420
+    offset: 39152960
+    sourceAssetGUID: 70108d78e82c2ec488d6b504865508e0
+    buildTimeAssetPath: Assets/VRChat Examples/SampleAssetsSet/SampleAssetsSet_V1.fbx
+  - fileID: 428
+    classID: 43
+    packedSize: 13688
+    offset: 39176384
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 429
+    classID: 43
+    packedSize: 1792
+    offset: 39190072
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 430
+    classID: 43
+    packedSize: 10176
+    offset: 39191864
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 431
+    classID: 43
+    packedSize: 1768
+    offset: 39202040
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 432
+    classID: 43
+    packedSize: 1796
+    offset: 39203808
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 433
+    classID: 43
+    packedSize: 3956
+    offset: 39205608
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 434
+    classID: 43
+    packedSize: 13688
+    offset: 39209568
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 435
+    classID: 43
+    packedSize: 15872
+    offset: 39223256
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 436
+    classID: 43
+    packedSize: 100764
+    offset: 39239128
+    sourceAssetGUID: 99dd9d4290a524a4997b251b5ffde63b
+    buildTimeAssetPath: Assets/Prefabs&Models/knight helmet.fbx
+  - fileID: 437
+    classID: 43
+    packedSize: 430268
+    offset: 39339896
+    sourceAssetGUID: d9dbc6a0380272b4889910b76070e4d1
+    buildTimeAssetPath: Assets/Shrek/source/Walking.fbx
+  - fileID: 438
+    classID: 43
+    packedSize: 14516
+    offset: 39770168
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 439
+    classID: 43
+    packedSize: 3908
+    offset: 39784688
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 440
+    classID: 43
+    packedSize: 3460
+    offset: 39788600
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 441
+    classID: 43
+    packedSize: 1088
+    offset: 39792064
+    sourceAssetGUID: fd468a64b44f7bd43a792b1f04eb7074
+    buildTimeAssetPath: Assets/Mr Krabs/Mr Krabs.FBX
+  - fileID: 442
+    classID: 43
+    packedSize: 13688
+    offset: 39793152
+    sourceAssetGUID: 19e185b68c810f647aa4a1eda3416d0a
+    buildTimeAssetPath: Assets/Squidward/Squidward.FBX
+  - fileID: 443
+    classID: 48
+    packedSize: 1601076
+    offset: 39806840
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 444
+    classID: 48
+    packedSize: 4744
+    offset: 41407920
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 445
+    classID: 48
+    packedSize: 6928
+    offset: 41412664
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 446
+    classID: 48
+    packedSize: 6692
+    offset: 41419592
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 447
+    classID: 48
+    packedSize: 5540
+    offset: 41426288
+    sourceAssetGUID: 02d2da9bc88d25c4d878c1ed4e0b3854
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+  - fileID: 448
+    classID: 48
+    packedSize: 10828
+    offset: 41431832
+    sourceAssetGUID: 0d8afcb51cc9f0349a6d190da929b838
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+  - fileID: 449
+    classID: 48
+    packedSize: 64076
+    offset: 41442664
+    sourceAssetGUID: 0ef78d24e85a44f4da9d5b5eaa00e50b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+  - fileID: 450
+    classID: 48
+    packedSize: 85320
+    offset: 41506744
+    sourceAssetGUID: 1ccecd9b89b8a4f14bfb64f29ddfcc81
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
+  - fileID: 451
+    classID: 48
+    packedSize: 20396
+    offset: 41592064
+    sourceAssetGUID: 2c459b89a7c8b1a4fbefe0d81341651c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+  - fileID: 452
+    classID: 48
+    packedSize: 3968
+    offset: 41612464
+    sourceAssetGUID: 3020ac7ece79a7f4eb789a236f8bd6c5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+  - fileID: 453
+    classID: 48
+    packedSize: 6588
+    offset: 41616432
+    sourceAssetGUID: 34a819c9e33402547a81619693adc8d5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+  - fileID: 454
+    classID: 48
+    packedSize: 2750344
+    offset: 41623024
+    sourceAssetGUID: 382151503e2a43a4ebb7366d1632731d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+  - fileID: 455
+    classID: 48
+    packedSize: 7304
+    offset: 44373368
+    sourceAssetGUID: 4117fce9491711c4094d33a048e36e73
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+  - fileID: 456
+    classID: 48
+    packedSize: 5572
+    offset: 44380672
+    sourceAssetGUID: 4bf4cff0d0bac3d43894e2e8839feb40
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+  - fileID: 457
+    classID: 48
+    packedSize: 10248
+    offset: 44386248
+    sourceAssetGUID: 51bcf79c50dc92e47ba87821b61100c3
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+  - fileID: 458
+    classID: 48
+    packedSize: 3576
+    offset: 44396496
+    sourceAssetGUID: 5ab0816423f0dfe45841cab3b05ec9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+  - fileID: 459
+    classID: 48
+    packedSize: 13020
+    offset: 44400072
+    sourceAssetGUID: 67f9497810829eb4791ec19e95781e51
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+  - fileID: 460
+    classID: 48
+    packedSize: 4868
+    offset: 44413096
+    sourceAssetGUID: 693137b858e4dc64c83be531351f45e6
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mirror.shader
+  - fileID: 461
+    classID: 48
+    packedSize: 18884
+    offset: 44417968
+    sourceAssetGUID: 7ad194cbe7d006f4bace915156972026
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+  - fileID: 462
+    classID: 48
+    packedSize: 21892
+    offset: 44436856
+    sourceAssetGUID: 81af42a93ade3dd46a9b583d4eec76d6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+  - fileID: 463
+    classID: 48
+    packedSize: 3980
+    offset: 44458752
+    sourceAssetGUID: a71093f2a4fe26a40805c22739e10e4a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+  - fileID: 464
+    classID: 48
+    packedSize: 13136
+    offset: 44462736
+    sourceAssetGUID: b34a29e523cb9d545881e193a079f2df
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+  - fileID: 465
+    classID: 48
+    packedSize: 23716
+    offset: 44475872
+    sourceAssetGUID: b958ad1c92bd3d64c9e61318b8681dab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+  - fileID: 466
+    classID: 48
+    packedSize: 29700
+    offset: 44499592
+    sourceAssetGUID: c1e1d3119c6fd4646aea0b4b74cacc1a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+  - fileID: 467
+    classID: 48
+    packedSize: 6228
+    offset: 44529296
+    sourceAssetGUID: cdbdb71de5f9c454b980f6d0e87f0afb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+  - fileID: 468
+    classID: 48
+    packedSize: 33428
+    offset: 44535528
+    sourceAssetGUID: d7640629310e79646af0f46eb55ae466
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+  - fileID: 469
+    classID: 48
+    packedSize: 5600
+    offset: 44568960
+    sourceAssetGUID: e8ce9961912f3214586fe8709b9012c1
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+  - fileID: 470
+    classID: 48
+    packedSize: 78288
+    offset: 44574560
+    sourceAssetGUID: f75014305794b3948a3c6d5ccd550e05
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+  - fileID: 471
+    classID: 48
+    packedSize: 4740
+    offset: 44652848
+    sourceAssetGUID: f7ea35cfb33fcad4ab8f2429ec103bef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+  - fileID: 472
+    classID: 48
+    packedSize: 17596
+    offset: 44657592
+    sourceAssetGUID: f997a3dc9254c44459323cced085150c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+  - fileID: 473
+    classID: 72
+    packedSize: 1816
+    offset: 44675192
+    sourceAssetGUID: 18183ebfeeab97749b43e38b928604a7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute
+  - fileID: 474
+    classID: 72
+    packedSize: 1456
+    offset: 44677008
+    sourceAssetGUID: 31e9175024adfd44aba2530ff9b77494
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
+  - fileID: 475
+    classID: 72
+    packedSize: 95740
+    offset: 44678464
+    sourceAssetGUID: 34845e0ca016b7448842e965db5890a5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
+  - fileID: 476
+    classID: 72
+    packedSize: 39828
+    offset: 44774208
+    sourceAssetGUID: 34a460e8a2e66c243a9c12024e5a798d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+  - fileID: 477
+    classID: 72
+    packedSize: 21116
+    offset: 44814040
+    sourceAssetGUID: 42496b74c071f5749950ca1abe33e945
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+  - fileID: 478
+    classID: 72
+    packedSize: 5048
+    offset: 44835160
+    sourceAssetGUID: 4c63bc487e6c29a4a99f85a6c47b292b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+  - fileID: 479
+    classID: 72
+    packedSize: 92224
+    offset: 44840208
+    sourceAssetGUID: 600d6212b59bb40409d19d750b5fd1e9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
+  - fileID: 480
+    classID: 72
+    packedSize: 6436
+    offset: 44932432
+    sourceAssetGUID: 6dba4103d23a7904fbc49099355aff3e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+  - fileID: 481
+    classID: 72
+    packedSize: 1640
+    offset: 44938872
+    sourceAssetGUID: 8c2fcbdf9bc58664f89917f7b9d79501
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+  - fileID: 482
+    classID: 72
+    packedSize: 1824
+    offset: 44940512
+    sourceAssetGUID: 92c63830cd50c0b4fbb8233613839958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
+  - fileID: 483
+    classID: 72
+    packedSize: 1944
+    offset: 44942336
+    sourceAssetGUID: e1efca7c36fd01840aae0dd10378de5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
+  - fileID: 484
+    classID: 72
+    packedSize: 1960
+    offset: 44944280
+    sourceAssetGUID: e4d3e4779e48a374f91d48d4c0aedb7b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+  - fileID: 485
+    classID: 74
+    packedSize: 741172
+    offset: 44946240
+    sourceAssetGUID: 3cf44ae7edd21ea47a52d6dda90e0c96
+    buildTimeAssetPath: Assets/Shrek girl dancing/Animations/Twerk.anim
+  - fileID: 486
+    classID: 74
+    packedSize: 5376
+    offset: 45687416
+    sourceAssetGUID: b01b67c9641b98243b115a30e9d60d7d
+    buildTimeAssetPath: Assets/VRChat Examples/Prefabs/squid.anim
+  - fileID: 487
+    classID: 74
+    packedSize: 2564
+    offset: 45692792
+    sourceAssetGUID: c6d37fda1fb02674fbded2b5cfaa0da2
+    buildTimeAssetPath: Assets/myAnimations/fish.anim
+  - fileID: 488
+    classID: 74
+    packedSize: 2732
+    offset: 45695360
+    sourceAssetGUID: ca6e48de4d47f1141a4c7f359eb417d4
+    buildTimeAssetPath: Assets/myAnimations/mrkrabs.anim
+  - fileID: 489
+    classID: 74
+    packedSize: 3120
+    offset: 45698096
+    sourceAssetGUID: a195d2cf0bfe8e14daddfba355047772
+    buildTimeAssetPath: Assets/myAnimations/planktonanim.anim
+  - fileID: 490
+    classID: 74
+    packedSize: 2564
+    offset: 45701216
+    sourceAssetGUID: ed4d93c890727ec4ca012bf1a89948e8
+    buildTimeAssetPath: Assets/myAnimations/siren.anim
+  - fileID: 491
+    classID: 83
+    packedSize: 164
+    offset: 45703784
+    sourceAssetGUID: 30a033107a250704d937985b65937f2e
+    buildTimeAssetPath: Assets/Audios/SPONGEBOB ALL SONGS (mp3cut.net) (3).mp3
+  - fileID: 492
+    classID: 83
+    packedSize: 192
+    offset: 45703952
+    sourceAssetGUID: 73c0eb87a0c456f41b6599ea213fbd05
+    buildTimeAssetPath: Assets/Audios/All Star but they don't stop coming pitch corrected
+      (128 kbps).mp3
+  - fileID: 493
+    classID: 83
+    packedSize: 180
+    offset: 45704144
+    sourceAssetGUID: 9b32a663a08175846824a670fbeba0c7
+    buildTimeAssetPath: Assets/Audios/Homer Simpson Scream - Sound Effect (HD) (128
+      kbps).mp3
+  - fileID: 494
+    classID: 83
+    packedSize: 148
+    offset: 45704328
+    sourceAssetGUID: f8541169f74b94d488fffdf5e712c323
+    buildTimeAssetPath: Assets/Audios/Squidward Screaming.mp3
+  - fileID: 495
+    classID: 89
+    packedSize: 131420
+    offset: 45704480
+    sourceAssetGUID: 26cddb2a3a1bc804d8e9ca09b109793a
+    buildTimeAssetPath: Assets/SkySerie Freebie/FreebieHdri/UnderTheSea4k.hdr
+  - fileID: 496
+    classID: 89
+    packedSize: 131424
+    offset: 45835904
+    sourceAssetGUID: 43282d187c07907429ae8114556f833e
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-2.exr
+  - fileID: 497
+    classID: 89
+    packedSize: 131424
+    offset: 45967328
+    sourceAssetGUID: 70b14011223242842a1731a78dc3c81b
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-1.exr
+  - fileID: 498
+    classID: 89
+    packedSize: 131424
+    offset: 46098752
+    sourceAssetGUID: c17a379dfe32dfb48aa3ba59a0fb83b3
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-3.exr
+  - fileID: 499
+    classID: 89
+    packedSize: 131424
+    offset: 46230176
+    sourceAssetGUID: e174325c2ac13a2498281300361c13e1
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-4.exr
+  - fileID: 500
+    classID: 89
+    packedSize: 131424
+    offset: 46361600
+    sourceAssetGUID: e2b95d8796666a949bc227fa605e8e44
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  - fileID: 501
+    classID: 89
+    packedSize: 131424
+    offset: 46493024
+    sourceAssetGUID: f5117180d4d7b9047ad9e35c9d475ac0
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-5.exr
+  - fileID: 502
+    classID: 90
+    packedSize: 1560
+    offset: 46624448
+    sourceAssetGUID: 5445c6c309f709e499c3436cd87e21ae
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/FBX's/Ears.fbx
+  - fileID: 503
+    classID: 90
+    packedSize: 47264
+    offset: 46626008
+    sourceAssetGUID: b805895f33a2c7b4db6bfb749fd3bd53
+    buildTimeAssetPath: Assets/Shrek girl dancing/Dommy By Fluffy/FBX's/FluffyDommy.fbx
+  - fileID: 504
+    classID: 91
+    packedSize: 412
+    offset: 46673272
+    sourceAssetGUID: b2199f49a6414c14a8faf81a2559ba10
+    buildTimeAssetPath: Assets/Shrek girl dancing/Animations/FluffyDommy.controller
+  - fileID: 505
+    classID: 91
+    packedSize: 412
+    offset: 46673688
+    sourceAssetGUID: ea57f1a68c4c6d443841f738292d319a
+    buildTimeAssetPath: Assets/VRChat Examples/Prefabs/Squidward.controller
+  - fileID: 506
+    classID: 91
+    packedSize: 412
+    offset: 46674104
+    sourceAssetGUID: e9136006715ea304ca81ee9d43b642e5
+    buildTimeAssetPath: Assets/myAnimations/Mr Krabs.controller
+  - fileID: 507
+    classID: 91
+    packedSize: 424
+    offset: 46674520
+    sourceAssetGUID: fc5ca7ae42dd8114ea3dd023d1c69eb4
+    buildTimeAssetPath: Assets/myAnimations/Plankton (2).controller
+  - fileID: 508
+    classID: 91
+    packedSize: 408
+    offset: 46674944
+    sourceAssetGUID: bfbc6d78705829d4490aefb30d2d5a00
+    buildTimeAssetPath: Assets/myAnimations/Siren.controller
+  - fileID: 509
+    classID: 91
+    packedSize: 400
+    offset: 46675352
+    sourceAssetGUID: 845471879958a4c459998576d1e865ce
+    buildTimeAssetPath: Assets/myAnimations/fish.controller
+  - fileID: 510
+    classID: 115
+    packedSize: 100
+    offset: 142480
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 511
+    classID: 115
+    packedSize: 96
+    offset: 142584
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 512
+    classID: 115
+    packedSize: 116
+    offset: 142680
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 513
+    classID: 115
+    packedSize: 108
+    offset: 142800
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 514
+    classID: 115
+    packedSize: 108
+    offset: 142912
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 515
+    classID: 115
+    packedSize: 96
+    offset: 143024
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 516
+    classID: 115
+    packedSize: 144
+    offset: 143120
+    sourceAssetGUID: 30f4b897495c7ad40b2d47143e02aaba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs
+  - fileID: 517
+    classID: 115
+    packedSize: 88
+    offset: 143264
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
+  - fileID: 518
+    classID: 115
+    packedSize: 120
+    offset: 143352
+    sourceAssetGUID: 48a79b01ea5641d4aa6daa2e23605641
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs
+  - fileID: 519
+    classID: 115
+    packedSize: 80
+    offset: 143472
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 520
+    classID: 115
+    packedSize: 112
+    offset: 143552
+    sourceAssetGUID: 8233d90336aea43098adf6dbabd606a2
+    buildTimeAssetPath: Packages/com.unity.probuilder/Runtime/Core/ProBuilderMesh.cs
+  - fileID: 521
+    classID: 115
+    packedSize: 144
+    offset: 143664
+    sourceAssetGUID: 8b9a305e18de0c04dbd257a21cd47087
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessVolume.cs
+  - fileID: 522
+    classID: 115
+    packedSize: 144
+    offset: 143808
+    sourceAssetGUID: 8e6292b2c06870d4495f009f912b9600
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs
+  - fileID: 523
+    classID: 115
+    packedSize: 136
+    offset: 143952
+    sourceAssetGUID: 948f4100a11a5c24981795d21301da5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessLayer.cs
+  - fileID: 524
+    classID: 115
+    packedSize: 128
+    offset: 144088
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 525
+    classID: 115
+    packedSize: 104
+    offset: 144216
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 526
+    classID: 115
+    packedSize: 92
+    offset: 144320
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 527
+    classID: 115
+    packedSize: 100
+    offset: 144416
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 528
+    classID: 115
+    packedSize: 92
+    offset: 144520
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 529
+    classID: 258
+    packedSize: 24204
+    offset: 46675752
+    sourceAssetGUID: f2deb624d82f65f408c6ed90e861636d
+    buildTimeAssetPath: Assets/Scenes/SampleScene/LightingData.asset
+  - fileID: 530
+    classID: 363
+    packedSize: 28368
+    offset: 46699960
+    sourceAssetGUID: 68ad0b16f85982d43898a60dfb6ec401
+    buildTimeAssetPath: Assets/Scenes/SampleScene/OcclusionCullingData.asset
+  - fileID: 531
+    classID: 114
+    packedSize: 72
+    offset: 46728328
+    sourceAssetGUID: edf4c6dff84a6d04bb1a06d6c21b9024
+    buildTimeAssetPath: Assets/Scenes/SampleScene_Profiles/post processing Profile.asset
+  - fileID: 532
+    classID: 114
+    packedSize: 14324
+    offset: 46728400
+    sourceAssetGUID: 34d249c24d42ab248802db5468461909
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/174365ecc2e335f47a57597152dcaae9.asset
+  - fileID: 533
+    classID: 114
+    packedSize: 14324
+    offset: 46742728
+    sourceAssetGUID: 5b32e155fbc70524981d1d03c6c20804
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/43d9f6915c47ed742a2d751fed2d7065.asset
+  - fileID: 534
+    classID: 114
+    packedSize: 15372
+    offset: 46757056
+    sourceAssetGUID: 8d147ebbbd5574a49b9de2038b98dd6b
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/4715e20276be3b141a6a216230cab4e9.asset
+  - fileID: 535
+    classID: 114
+    packedSize: 14316
+    offset: 46772432
+    sourceAssetGUID: 453c516c4aa9ff9458c0fa8a85cc1655
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/47c2523190cd3444abc927c54c9a41e9.asset
+  - fileID: 536
+    classID: 114
+    packedSize: 14312
+    offset: 46786752
+    sourceAssetGUID: e57242d43dc8f7148a7b4721bc3dd96b
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/4e09b46f6ff7c11488ab2676c2fb76be.asset
+  - fileID: 537
+    classID: 114
+    packedSize: 14324
+    offset: 46801064
+    sourceAssetGUID: 0716e78710863904ca0cfff1cc561768
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/5e2b6533e7d27ee4e84fef35acab03ee.asset
+  - fileID: 538
+    classID: 114
+    packedSize: 158388
+    offset: 46815392
+    sourceAssetGUID: 90dfa747b75ba144aa0eb2ea5c415962
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/61228312ed1040246a35e91f8434d100.asset
+  - fileID: 539
+    classID: 114
+    packedSize: 19840
+    offset: 46973784
+    sourceAssetGUID: 29ad6d619cb25de46a0aa9f209760936
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/6321cb479f1f2f748a70f16ec7250b0c.asset
+  - fileID: 540
+    classID: 114
+    packedSize: 16184
+    offset: 46993624
+    sourceAssetGUID: 9bf8bafb88623564286c0937ac85285f
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/7832396f026e6be469f87dfa08828f0d.asset
+  - fileID: 541
+    classID: 114
+    packedSize: 14324
+    offset: 47009808
+    sourceAssetGUID: a6441dd05a9dc9046b6788d00c9c4168
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/8c647d48e67a88246b3e54504fdff410.asset
+  - fileID: 542
+    classID: 114
+    packedSize: 11084
+    offset: 47024136
+    sourceAssetGUID: 755ff3a1c29d8ec46b1f997e54dc249b
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/98f0aefd60a473c4994a3cfecc19c6cd.asset
+  - fileID: 543
+    classID: 114
+    packedSize: 12768
+    offset: 47035224
+    sourceAssetGUID: a7e5f7cdee9e2cc499ee14fa53a2819d
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/99483a9484283744a8ff1e669480af34.asset
+  - fileID: 544
+    classID: 114
+    packedSize: 14316
+    offset: 47047992
+    sourceAssetGUID: 98f424d443d87f648abeb38e65dfd03b
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/bc8b6a2d9d05bdb45bb888305b9971d1.asset
+  - fileID: 545
+    classID: 114
+    packedSize: 23228
+    offset: 47062312
+    sourceAssetGUID: b45c5ae722e07ae4a88bf7a7ab97151e
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c3955c65a35a816418d0829fe12c5aa3.asset
+  - fileID: 546
+    classID: 114
+    packedSize: 17068
+    offset: 47085544
+    sourceAssetGUID: 13452317f05b0c7469449dbd8c59961f
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 547
+    classID: 114
+    packedSize: 12768
+    offset: 47102616
+    sourceAssetGUID: 11b69b86006b9d449bfe19daefd79c93
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/e4f0cdd4b815f304084bd086bcf9b355.asset
+  - fileID: 548
+    classID: 114
+    packedSize: 14312
+    offset: 47115384
+    sourceAssetGUID: cee52a4e356fbee428cc11ba4c88005c
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/e5065ebb50fbe284eb84aea343a23e71.asset
+  - fileID: 549
+    classID: 114
+    packedSize: 68152
+    offset: 47129696
+    sourceAssetGUID: 01bbc7efbf06abc45a047775b9474006
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/fb08ef53e6cc3a84da17ca3a96270100.asset
+  - fileID: 550
+    classID: 114
+    packedSize: 1380
+    offset: 47197848
+    sourceAssetGUID: d82512f9c8e5d4a4d938b575d47f88d4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+  - fileID: 551
+    classID: 114
+    packedSize: 156
+    offset: 47199232
+    sourceAssetGUID: edf4c6dff84a6d04bb1a06d6c21b9024
+    buildTimeAssetPath: Assets/Scenes/SampleScene_Profiles/post processing Profile.asset
+--- !u!1126 &7897224172658739929
+PackedAssets:
+  m_File: 2
+  m_ShortPath: BuildPlayer-SampleScene.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 50752
+    offset: 0
+    sourceAssetGUID: 9b32a663a08175846824a670fbeba0c7
+    buildTimeAssetPath: Assets/Audios/Homer Simpson Scream - Sound Effect (HD) (128
+      kbps).mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 121120
+    offset: 0
+    sourceAssetGUID: f8541169f74b94d488fffdf5e712c323
+    buildTimeAssetPath: Assets/Audios/Squidward Screaming.mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 1932960
+    offset: 0
+    sourceAssetGUID: 73c0eb87a0c456f41b6599ea213fbd05
+    buildTimeAssetPath: Assets/Audios/All Star but they don't stop coming pitch corrected
+      (128 kbps).mp3
+  - fileID: 0
+    classID: 83
+    packedSize: 4999776
+    offset: 0
+    sourceAssetGUID: 30a033107a250704d937985b65937f2e
+    buildTimeAssetPath: Assets/Audios/SPONGEBOB ALL SONGS (mp3cut.net) (3).mp3

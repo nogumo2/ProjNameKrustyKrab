@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: udonTelOfficeToKitchen
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: a6441dd05a9dc9046b6788d00c9c4168,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    .export telOfficeToKitchen\r\n    \r\n   
+    __instance_0: %VRCSDKBaseVRCPlayerApi, null\r\n    __teleportPos_0: %UnityEngineVector3,
+    null\r\n    __teleportRot_0: %UnityEngineQuaternion, null\r\n    __instance_1:
+    %UnityEngineTransform, this\r\n    __instance_3: %UnityEngineTransform, this\r\n   
+    __instance_2: %UnityEngineGameObject, this\r\n    telOfficeToKitchen: %UnityEngineGameObject,
+    this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _interact\r\n   
+    \r\n    _interact:\r\n    \r\n        PUSH, __instance_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, telOfficeToKitchen\r\n        PUSH, __instance_2\r\n        COPY\r\n       
+    PUSH, __instance_2\r\n        PUSH, __instance_1\r\n        EXTERN, \"UnityEngineGameObject.__get_transform__UnityEngineTransform\"\r\n       
+    PUSH, __instance_1\r\n        PUSH, __teleportPos_0\r\n        EXTERN, \"UnityEngineTransform.__get_position__UnityEngineVector3\"\r\n       
+    PUSH, telOfficeToKitchen\r\n        PUSH, __instance_2\r\n        COPY\r\n       
+    PUSH, __instance_1\r\n        PUSH, __instance_3\r\n        COPY\r\n        PUSH,
+    __instance_1\r\n        PUSH, __teleportRot_0\r\n        EXTERN, \"UnityEngineTransform.__get_localRotation__UnityEngineQuaternion\"\r\n       
+    PUSH, __instance_0\r\n        PUSH, __teleportPos_0\r\n        PUSH, __teleportRot_0\r\n       
+    EXTERN, \"VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
+      uid: f3a9ceaf-523d-4082-9b12-d3cb742a2496
+      position: {x: 169.70003, y: 277.85}
+      nodeUIDs: []
+      flowUIDs: []
+      nodeValues: []
+    - fullName: VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid
+      uid: aa262c64-0643-4582-b5f2-46dccd5062a6
+      position: {x: 505.05002, y: 238.23001}
+      nodeUIDs:
+      - f3a9ceaf-523d-4082-9b12-d3cb742a2496|0
+      - 6b821388-70b7-4010-8355-12331bdb55d8|0
+      - f562bdbe-5703-4834-b399-ae90c6a3c45a|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0,"w":0.0}
+    - fullName: UnityEngineTransform.__get_position__UnityEngineVector3
+      uid: 6b821388-70b7-4010-8355-12331bdb55d8
+      position: {x: 285.7847, y: 420.75696}
+      nodeUIDs:
+      - ddca0339-cd9f-4e0d-a8cd-a9d911efd89b|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineTransform.__get_localRotation__UnityEngineQuaternion
+      uid: f562bdbe-5703-4834-b399-ae90c6a3c45a
+      position: {x: 281.28668, y: 524.99994}
+      nodeUIDs:
+      - ddca0339-cd9f-4e0d-a8cd-a9d911efd89b|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineGameObject.__get_transform__UnityEngineTransform
+      uid: ddca0339-cd9f-4e0d-a8cd-a9d911efd89b
+      position: {x: 55.60527, y: 512.24695}
+      nodeUIDs:
+      - 58e270cb-a78c-4cf7-b3a6-714d9fe06784|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Event_Interact
+      uid: f27cc735-200b-4b97-b0ac-0fc74494804c
+      position: {x: 48.582508, y: 187.9725}
+      nodeUIDs: []
+      flowUIDs:
+      - aa262c64-0643-4582-b5f2-46dccd5062a6
+      nodeValues: []
+    - fullName: Variable_UnityEngineGameObject
+      uid: e2812eaf-5c6b-44a6-8a56-47d10d614c72
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|telOfficeToKitchen
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: 58e270cb-a78c-4cf7-b3a6-714d9fe06784
+      position: {x: -253.96507, y: 475.455}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|e2812eaf-5c6b-44a6-8a56-47d10d614c72
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    updateOrder: 0
+  graphElementData: []
+  viewTransform:
+    position: {x: 472.8, y: -288}
+    scale: 1
+  version: 1.0.0
+  showAssembly: 0
